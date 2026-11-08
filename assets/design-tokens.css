@@ -1,0 +1,80 @@
+/* yourIntelligent / Margin Cut: light baseline from Figma 11:3291.
+   Supersedes the original zine palette. See DESIGN-PLAN.md. */
+:root {
+  /* Primitives */
+  --yi-white: #ffffff;
+  --yi-near-white: #f8f9fa;
+  --yi-mist: #edf0f2;
+  --yi-gray: #dadce0;
+  --yi-graphite: #3c4043;
+  --yi-slate: #5f6368;
+  --yi-charcoal: #202124;
+  --yi-blue: #1a73e8;
+  --yi-pale-blue: #e8f0fe;
+  --yi-blue-gray: #dde7ee;
+  --yi-heading: "DM Sans", system-ui, sans-serif;
+  --yi-body: "Roboto", system-ui, sans-serif;
+  --yi-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --yi-space-1: 4px;
+  --yi-space-2: 8px;
+  --yi-space-3: 12px;
+  --yi-space-4: 16px;
+  --yi-space-5: 20px;
+  --yi-space-6: 24px;
+
+  /* Semantic roles */
+  --color-canvas: var(--yi-near-white);
+  --color-surface: var(--yi-white);
+  --color-text: var(--yi-charcoal);
+  --color-text-secondary: var(--yi-graphite);
+  --color-text-supporting: var(--yi-slate);
+  --color-border-passive: var(--yi-gray);
+  --color-border-control: var(--yi-slate);
+  --color-selected-surface: var(--yi-charcoal);
+  --color-on-selected: var(--yi-white);
+  --color-action: var(--yi-charcoal);
+  --color-on-action: var(--yi-white);
+  --color-action-arrow: var(--yi-pale-blue);
+  --color-focus: var(--yi-blue);
+  --color-focus-on-dark: var(--yi-pale-blue);
+  --color-link: var(--yi-blue);
+  --color-unavailable: var(--yi-mist);
+  --color-on-unavailable: var(--yi-slate);
+  --font-heading: var(--yi-heading);
+  --font-body: var(--yi-body);
+  --font-metadata: var(--yi-mono);
+  --text-body-size: 14px;
+  --text-body-leading: 20px;
+  --text-body-tracking: normal;
+  --text-caption-size: 12px;
+  --text-caption-leading: 18px;
+  --text-heading-size: 28px;
+  --text-heading-leading: 34px;
+  --text-heading-tracking: -0.2px;
+  --space-region: 24px;
+  --space-group: 16px;
+  --space-control: 8px;
+
+  /* Components: host owns the outer sidebar edge */
+  --sidebar-padding: 16px;
+  --card-padding: 16px;
+  --card-radius: 24px;
+  --card-background: var(--color-surface);
+  --card-border: var(--color-border-passive);
+  --button-background: var(--color-action);
+  --button-text: var(--color-on-action);
+  --button-radius: 200px;
+  --button-min-height: 44px;
+  --input-background: var(--color-surface);
+  --input-border: var(--color-border-control);
+  --input-radius: 4px;
+  --lens-background: var(--color-surface);
+  --lens-selected-background: var(--color-selected-surface);
+  --lens-selected-text: var(--color-on-selected);
+  --lens-radius: 24px;
+  --lens-padding: 14px;
+  --lens-border: var(--color-border-control);
+  --focus-outline-width: 2px;
+  --focus-outline-offset: 3px;
+  --yi-motion-fast: 0ms;
+}

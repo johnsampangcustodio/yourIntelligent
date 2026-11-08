@@ -1,0 +1,45 @@
+{
+  "name": "yourintelligent",
+  "version": "0.1.0",
+  "description": "Student-directed revision partner for Google Docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test && npm run build",
+    "clasp": "clasp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsampangcustodio/yourIntelligent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/johnsampangcustodio/yourIntelligent/issues"
+  },
+  "homepage": "https://github.com/johnsampangcustodio/yourIntelligent#readme",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1",
+    "@types/google-apps-script": "^2.0.15",
+    "esbuild": "^0.28.2",
+    "jsdom": "^29.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0"
+  },
+  "overrides": {
+    "zod": "^4.6.6",
+    "minimatch": "^11.0.1",
+    "glob": "^14.0.2"
+  }
+}
