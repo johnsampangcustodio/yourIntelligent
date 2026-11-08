@@ -4,7 +4,7 @@ import '@fontsource/roboto/latin-500.css';
 import '@fontsource/ibm-plex-mono/latin-400.css';
 import './styles.css';
 type HostResult={ok:boolean;text?:string;message?:string};
-declare const google: {script:{run:{withSuccessHandler(fn:(r:HostResult)=>void):{withFailureHandler(fn:()=>void):{capturePassage():void}}};host:{close():void}}};
+declare const google: {script:{run:{withSuccessHandler(fn:(r:HostResult)=>void):{withFailureHandler(fn:(error:{message?:string})=>void):{capturePassage():void}}};host:{close():void}}};
 const app=document.querySelector<HTMLElement>('#app')!;
 const sample='During our group discussion, I stayed quiet because I thought everyone else understood the reading. Later, someone asked the same question I had. I learned that participation matters.';
 const lenses=[['clarity','Find the thread','Clarity and connections'],['depth','Go a layer deeper','Meaning behind the moment'],['voice','Keep it me','Voice and intention'],['custom','My own focus','Bring your own question']];
@@ -33,7 +33,7 @@ function render(){
 }
 async function capture(){if(busy)return; if(typeof google==='undefined'){error='Open this build in Google Docs to capture text, or try the local sample.';render();return;}
  busy=true;render();const generation=version;
- google.script.run.withSuccessHandler(r=>{busy=false;if(version!==generation)return;if(r.ok&&r.text){passage=r.text;sampleMode=false;version++;stage='preview';error='';}else error=r.message||'Select plain text and try again.';render();}).withFailureHandler(()=>{busy=false;if(version!==generation)return;error='Capture did not finish. Keep writing and try again.';render();}).capturePassage();}
+ google.script.run.withSuccessHandler(r=>{busy=false;if(version!==generation)return;if(r.ok&&r.text){passage=r.text;sampleMode=false;version++;stage='preview';error='';}else error=r.message||'Select plain text and try again.';render();}).withFailureHandler((failure)=>{busy=false;if(version!==generation)return;const message=failure?.message||'';error=/function.*not found|script function/i.test(message)?'Capture function unavailable. Reopen the add-on after updating the test deployment.':/authoriz|permission/i.test(message)?'Google authorization is required. Reopen the add-on to authorize document access.':'Capture did not finish. Keep writing and try again.';render();}).capturePassage();}
 async function act(a:string){error='';
  if(a==='capture'){await capture();return;}
  if(a==='sample'){sampleMode=true;passage=sample;version++;stage='preview';}

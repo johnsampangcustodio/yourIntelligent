@@ -253,3 +253,9 @@ The plan defines future work. No application code, account configuration, deploy
 ### Implementation update — November 8, 2026
 
 First slice implemented on `codex/first-working-slice`. Local sample navigation, all lens choices, manual sample revision/refresh, redirection, session key UI, and finish are present. Provider calls are explicitly disabled. Apps Script menu/sidebar and selected-plain-text adapter build successfully. Four deterministic selection/journey tests pass. Real host capture, live Gemini, deployment and visual browser validation remain pending. Clasp sign-in is absent on this machine. Fonts are bundled locally; no external font request is required. Dependency overrides address reported tooling vulnerabilities; clasp version command and build checks pass, but authenticated upload remains untested.
+
+### Docs integration setup — November 8, 2026
+
+Google clasp authorization completed and Apps Script API enabled by founder. Created the standalone development project and pushed Code.js, Sidebar.html and manifest. Eight local tests pass, including the server adapter. Created a synthetic test Doc and opened Editor Add-on test configuration; file-picker automation failed, so founder handoff is pending. Actual capture verification remains pending. No live provider request has been implemented.
+
+Host verification update: Editor add-on test is saved and executed; founder authorized document/sidebar access. Menu and rendered sidebar verified. Fixed Apps Script HTML handling of bundled template literals. Capture RPC still fails before returning content; O-03 remains active. Next action: inspect capture call failure with a safe diagnostic category, authorization/test context, and an isolated RPC probe. Eight local tests pass.
