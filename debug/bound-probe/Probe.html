@@ -1,0 +1,1 @@
+<!doctype html><html><body><p id="status">Ready: no document read</p><button onclick="google.script.run.withSuccessHandler(function(r){document.getElementById('status').textContent=r}).withFailureHandler(function(){document.getElementById('status').textContent='Connection rejected'}).ping()">Test connection</button></body></html>

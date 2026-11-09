@@ -25,3 +25,11 @@ The current manifest requests current-document and sidebar UI access only. Netwo
 ## Delivery
 
 See [ORCHESTRATOR-PLAN.md](ORCHESTRATOR-PLAN.md). Account authorization and actual host checks remain necessary. No real Docs or model integration checks have been claimed from local tests.
+
+## Verified development preview
+
+Exact selected-paragraph capture was confirmed by the founder in a private browser using the document-bound development preview. The in-app browser still rejects calls, and standalone Editor add-on installation is not yet verified. No public deployment or live Gemini is claimed.
+
+`npm run build:bound` creates the same UI/adapter with a development-only custom menu in `dist-bound/`. An ignored `.clasp.bound.json` targets the synthetic test document's bound script. Upload that target with `npm run clasp -- -P <absolute-path-to-.clasp.bound.json> push --force`. The normal `npm run build` and original `.clasp.json` remain the standalone Editor add-on target. Keep the two targets distinct.
+
+If project consent needs verification, run `authorizeAccess` from the Apps Script editor. It checks the existing manifest scopes without reading assignment text. See [capture diagnosis](docs/CAPTURE-DIAGNOSIS.md) for actual experiments and unresolved environment restrictions.

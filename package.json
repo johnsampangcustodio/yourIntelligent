@@ -7,9 +7,10 @@
     "dev": "vite --host 127.0.0.1",
     "build": "node scripts/build.mjs",
     "typecheck": "tsc",
-    "test": "vitest run",
+    "test": "vitest run --pool=threads --maxWorkers=1",
     "check": "npm run typecheck && npm test && npm run build",
-    "clasp": "clasp"
+    "clasp": "clasp",
+    "build:bound": "node scripts/build.mjs --bound"
   },
   "repository": {
     "type": "git",

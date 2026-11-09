@@ -5,3 +5,7 @@ dist/
 .env*
 *.log
 dependency-audit.json
+
+.clasp.*.json
+debug/bound-app/
+dist-bound/

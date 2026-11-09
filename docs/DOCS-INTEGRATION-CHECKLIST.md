@@ -30,3 +30,5 @@ Create test through Apps Script: Deploy → Test deployments → enable Editor a
 Reference: https://developers.google.com/workspace/add-ons/how-tos/testing-editor-addons
 
 Actual host result: sidebar menu, authorization and rendering pass. Capture RPC attempts show zero-duration failed executions and invoke the client failure handler; no selection text has been verified yet. Root cause remains unresolved. Template-literal lowering is a verified rendering fix; putting exported wrappers on separate lines did not resolve capture. Do not mark O-03 done.
+
+Follow-up: founder confirmed exact selected-paragraph capture in the corrected document-bound preview using a private browser. Full-paragraph RangeElements are now supported. In-app calls still fail authorization; standalone test retest remains pending. Keep the pending cases above open rather than inferring success from this one host result.
