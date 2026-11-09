@@ -1,6 +1,6 @@
 # Get help with yourIntelligent
 
-Contact **John Phillip Custodio** through [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). LinkedIn may require an account and messaging availability can vary. No response-time commitment is offered.
+Contact **John Phillip Custodio** through [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). LinkedIn may require an account and messaging availability can vary. No response-time commitment is offered. For privacy or Google authorization questions, email [jpsc@tuta.io](mailto:jpsc@tuta.io).
 
 Describe the step you tried, the visible error, your browser and whether you used a personal or managed Google account. Do not send API keys, private writing, access tokens or document links. Use synthetic text if an example is necessary.
 

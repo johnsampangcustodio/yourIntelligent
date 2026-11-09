@@ -1,8 +1,8 @@
 # Privacy — yourIntelligent
 
-Prepared November 9, 2026. Publication draft for the implemented initial version; not a claim that the app is publicly available.
+Updated November 9, 2026. This page describes the implemented initial version. The add-on is in development and is not publicly installable yet.
 
-Publisher: John Phillip Custodio. Contact: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/).
+Publisher: John Phillip Custodio. App support: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). Privacy/OAuth contact: [jpsc@tuta.io](mailto:jpsc@tuta.io).
 
 ## What the app handles
 
@@ -31,3 +31,7 @@ You can stop sending, close the sidebar, remove the add-on or revoke its Google 
 ## Development tests
 
 A separate synthetic-only development build can use Aion Labs. It is not the shipping provider. That build labels itself as an Aion test, uses an Aion key, and is governed by [Aion's own information and policies](https://www.aionlabs.ai/docs/); Gemini's data settings do not apply to it.
+
+## This website
+
+The product, privacy, terms and support pages are hosted by GitHub Pages. They contain no app analytics or advertising scripts. GitHub may log visitors’ IP addresses for security purposes under its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Website hosting is separate from Google Docs and Gemini processing.

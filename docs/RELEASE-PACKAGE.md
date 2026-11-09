@@ -13,7 +13,7 @@ Detailed description source: [public product/setup page](public/README.md). Link
 ## Configuration to inspect before publication
 
 1. Verify the standalone Apps Script project's associated Cloud project; switch to a suitable standard project if required. Preserve ownership under the founder account.
-2. Configure Google Auth platform branding as yourIntelligent, external audience, confirmed publisher and real support/contact email. LinkedIn remains the student support destination but cannot fill an email field. Do not infer permission to publish a personal email.
+2. Configure Google Auth platform branding as yourIntelligent, external audience, confirmed publisher and support/contact email **jpsc@tuta.io**, confirmed by the founder for these fields. LinkedIn remains the student-facing support destination.
 3. Match these exact manifest scopes in the OAuth and Marketplace configurations:
    - `https://www.googleapis.com/auth/documents.currentonly`
    - `https://www.googleapis.com/auth/script.container.ui`
@@ -54,3 +54,9 @@ To restore a previous release, check out its recorded commit, rebuild, upload to
 - [Listing copy, graphics and required support links](https://developers.google.com/workspace/marketplace/create-listing)
 
 Recheck the actual console at submission. This document records preparation, not approval or compliance certification.
+
+## Website publication configuration
+
+Founder selected GitHub Pages at no cost. The repository is public and the Pages settings are available. `npm run build:site` builds a safelisted four-page static website into tracked `site/` with bundled fonts and no browser JavaScript. Source text remains in docs/public. A dedicated `codex/public-pages` subtree branch publishes only the website output at its root. Do not publish the repository root or raw research. Build and local navigation checks pass; live deployment verification is still pending at this point.
+
+Update flow: edit source text/design, run `npm run build:site`, review generated output, commit on the development branch, run `git subtree split --prefix site -b <temporary-codex-branch>` (or split to an SHA), and push that website-only commit to `codex/public-pages`. Never force-push unrelated application history or include credentials in the site.

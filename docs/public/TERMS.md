@@ -1,6 +1,6 @@
 # Terms — yourIntelligent
 
-Prepared November 9, 2026. Publication draft for the initial release.
+Updated November 9, 2026. The add-on is in development and is not publicly installable yet.
 
 yourIntelligent is an independent writing-support project by John Phillip Custodio for university students. It provides AI questions and feedback, which can be incorrect or unhelpful. You decide what to use and remain responsible for your writing and compliance with your course's rules.
 
