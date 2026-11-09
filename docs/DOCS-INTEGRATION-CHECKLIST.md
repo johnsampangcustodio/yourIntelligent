@@ -40,3 +40,7 @@ Founder confirmed the complete synthetic revision loop with both Aion (test-only
 The standalone project has been rebuilt with the same native entry points, capture fixes and Gemini request implementation. In the owning account private browser, open the standalone Apps Script project, choose Deploy > Test deployments, select the saved synthetic Doc test configured for Latest Code, and Execute. Open the add-on through **Extensions > yourIntelligent > Open yourIntelligent**, not the bound **yourIntelligent Preview** menu. Grant the requested document/sidebar/network permissions if prompted. Capture synthetic plain text and request one Gemini reading using the masked key field. Record the visible outcome without credentials.
 
 Official test flow: https://developers.google.com/workspace/add-ons/how-tos/testing-editor-addons
+
+### Standalone core path passed - November 9, 2026
+
+Founder confirmed capture and a Gemini reading through the standalone Editor add-on test after the corrected build was uploaded. Prior standalone failures above are historical; core capture/RPC is now confirmed in this test context. Partial/Unicode/multiple-paragraph/tab/unsupported selection cases, full standalone second-reading sequence and external public install remain to be checked individually.

@@ -233,14 +233,14 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 |---|---|---|
 | O-01 | Done locally | TypeScript/esbuild/Vite scaffold, bundled sidebar, sample journey, 4 passing tests; see README |
 | O-02 | Ready | Account and key available; inspect actual setup and official requirements |
-| O-03 | Core capture confirmed / standalone pending | Founder confirmed exact paragraph capture in private-browser bound preview; standalone install and host edge cases remain open |
+| O-03 | Core standalone capture confirmed / edge cases open | Founder confirmed standalone capture + Gemini reading; selection/tab edge cases remain open |
 | O-04 | Core loop confirmed in bound preview | Founder confirmed both Aion and Gemini revision loops. Standalone test and broader output evaluation remain open; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
 | O-06 | Ready for implementation alongside slices | Current design plan/tokens/Figma available |
 | O-07 | Queued; basic guards included in O-04 | Complete matrix after full loop |
-| O-08 | Ready for drafts; finalization later | Need actual hosting/support/publisher details |
+| O-08 | Draft package ready / hosting and assets pending | John Phillip Custodio; LinkedIn support confirmed; public-page sources and release package drafted; OAuth email still needed |
 | O-09 | Queued | Needs concrete release package |
-| O-10 | Ready for evidence capture | Final narrative depends on actual implementation/deployment |
+| O-10 | Working draft ready | CASE-STUDY.md distinguishes implementation evidence from unevaluated outcomes; screenshots/public release section pending |
 
 Session handoff format: **completed and evidence; active task; blocker and owner; next exact action; any changed decision**. Keep this ledger accurate and concise as work progresses.
 
@@ -279,3 +279,7 @@ Founder confirmed manual revision, local refresh and a second explicit Aion read
 ### Gemini loop confirmed - November 9, 2026
 
 Founder confirmed both Gemini readings worked in the bound preview, following the requested manual revision and refresh sequence. O-04 core loop now has founder-reported real-host evidence for the shipping provider. Rebuilt the standalone Gemini add-on for a fresh Editor add-on test using the native entry points that fixed the bound preview. Standalone install/authorization remains a separate gate. No public release or student outcomes are claimed.
+
+### Standalone test and release-content slice - November 9, 2026
+
+Founder confirmed standalone capture + Gemini reading. Prepared docs/RELEASE-PACKAGE.md, product/setup/privacy/terms/support source under docs/public, and CASE-STUDY.md. Publisher confirmed as John Phillip Custodio; LinkedIn is the requested student support destination. OAuth still requires an email address; no personal email is assumed public. Hosting, listing assets, Cloud/publisher setup, remaining hardening and independent-account installation remain open. Current Google publishing/OAuth/listing documentation was checked. No public deployment or review submission was made.

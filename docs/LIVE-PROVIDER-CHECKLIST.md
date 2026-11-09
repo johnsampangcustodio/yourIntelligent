@@ -2,7 +2,7 @@
 
 Founder confirmed on November 9, 2026 that the first live Aion request in the document-bound preview displayed one observation and one question. The founder also confirmed the full manual revision, local refresh and second explicit reading worked with refreshed-only feedback and no comparison claim. This is founder-reported host evidence; broader output quality remains unevaluated. Aion is synthetic development testing only. The founder also confirmed both Gemini readings worked after switching the bound preview to Gemini. Gemini remains the shipping provider.
 
-Verification: 19 tests, strict typecheck and Gemini release build pass. The separate Aion bound build passes and was uploaded to the synthetic Doc's preview. No live model request was made during these checks. The founder subsequently confirmed the first live response. The founder subsequently confirmed the full Aion revision loop. The bound preview has now been rebuilt for Gemini; the founder has now confirmed both Gemini readings worked. Standalone add-on testing is next.
+Verification: 19 tests, strict typecheck and Gemini release build pass. The separate Aion bound build passes and was uploaded to the synthetic Doc's preview. No live model request was made during these checks. The founder subsequently confirmed the first live response. The founder subsequently confirmed the full Aion revision loop. The bound preview has now been rebuilt for Gemini; the founder has now confirmed both Gemini readings worked. The founder subsequently confirmed capture and a Gemini reading in the standalone Editor add-on test.
 
 ## Manual bound test
 
@@ -23,7 +23,7 @@ Requests contain the current passage, chosen focus and optional context. They co
 
 - Broader coaching-quality evaluation beyond the founder-confirmed synthetic Aion loop.
 - Current provider terms disclosure review and broader coaching evaluation; the founder confirmed the Gemini request/revision loop in the bound preview.
-- Standalone Editor add-on authorization/install, selection/tab edge cases and external personal-account installation. A bound preview is not public distribution.
+- Standalone full-loop edge cases and external personal-account installation. Founder confirmed standalone capture and a Gemini reading; an Editor add-on test is not public distribution.
 - Coaching quality across lenses, custom requests and prompt injection.
 - Publisher setup, privacy/support pages and Marketplace review.
 
@@ -36,3 +36,7 @@ Aion: [API reference](https://www.aionlabs.ai/docs/api-reference/), [models](htt
 ## Gemini acceptance handoff
 
 The same bound preview now uses the normal Gemini configuration (`npm run build:bound`). Close the old Aion sidebar and reopen it after refreshing the Doc; the button must say **Ask Gemini** and the Aion test banner must be absent. Enter a Gemini API key afresh in the masked session field. Test a first reading, manual edit, local refresh and second explicit reading using synthetic text. An Aion key is not interchangeable with a Gemini key. No new manifest permissions were added for this switch. Founder reported both Gemini readings worked on November 9, 2026. This confirms the bound-preview loop, not standalone installation or public availability.
+
+### Standalone acceptance - November 9, 2026
+
+Founder reports capture and a Gemini reading worked through Extensions > yourIntelligent in the saved standalone Editor add-on test. This closes the prior core standalone RPC blocker for this tested context. Full standalone edge-case coverage and Marketplace installation remain open.

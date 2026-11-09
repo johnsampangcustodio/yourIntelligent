@@ -4,7 +4,7 @@ A student-directed revision partner for Google Docs. Students write all assignme
 
 ## Current build
 
-Local sample journey, Apps Script selection adapter, and live-request implementation. Gemini is the release provider; a separate Aion Labs build is for synthetic tests only. **The founder confirmed the full synthetic revision loop with both Aion (test-only) and Gemini in the bound preview, including refreshed-only second reading. Standalone installation and public deployment remain unverified.** Sample feedback is explicitly prepared, never a substitute for a failed live request.
+Local sample journey, Apps Script selection adapter, and live-request implementation. Gemini is the release provider; a separate Aion Labs build is for synthetic tests only. **The founder confirmed the full synthetic revision loop with both Aion (test-only) and Gemini in the bound preview, including refreshed-only second reading. The founder also confirmed capture and a Gemini reading through a standalone Editor add-on test. Public installation/deployment remain unverified.** Sample feedback is explicitly prepared, never a substitute for a failed live request.
 
 ## Develop
 
@@ -39,3 +39,7 @@ If project consent needs verification, run `authorizeAccess` from the Apps Scrip
 Run `npm run build:aion-test` to build the bound Aion preview, then upload with the ignored bound clasp configuration described above. Aion builds are rejected without `--bound`. Normal builds use Gemini. Enter an actual API key through the masked session field, never chat. The endpoint URL is not a credential. Provider charges/quota and terms apply.
 
 Refresh only captures locally. The next explicit send assesses only the refreshed passage. See [live provider checklist](docs/LIVE-PROVIDER-CHECKLIST.md) for manual acceptance, data handling and outstanding release checks.
+
+## Release preparation and case study
+
+Publisher: John Phillip Custodio. Student support: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). See the [release package](docs/RELEASE-PACKAGE.md), [public-page source](docs/public/README.md) and [working case-study draft](CASE-STUDY.md). These artifacts are prepared for review; no public listing or hosted policy-page verification is claimed.
