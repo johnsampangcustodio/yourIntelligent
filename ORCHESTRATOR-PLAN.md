@@ -234,7 +234,7 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 | O-01 | Done locally | TypeScript/esbuild/Vite scaffold, bundled sidebar, sample journey, 4 passing tests; see README |
 | O-02 | Ready | Account and key available; inspect actual setup and official requirements |
 | O-03 | Core capture confirmed / standalone pending | Founder confirmed exact paragraph capture in private-browser bound preview; standalone install and host edge cases remain open |
-| O-04 | Aion loop confirmed / Gemini acceptance pending | Founder confirmed first reading, manual revision, local refresh and refreshed-only second reading in bound preview. Gemini verification is next; see docs/LIVE-PROVIDER-CHECKLIST.md |
+| O-04 | Core loop confirmed in bound preview | Founder confirmed both Aion and Gemini revision loops. Standalone test and broader output evaluation remain open; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
 | O-06 | Ready for implementation alongside slices | Current design plan/tokens/Figma available |
 | O-07 | Queued; basic guards included in O-04 | Complete matrix after full loop |
@@ -275,3 +275,7 @@ Founder reported one observation and one question appearing after an explicit Ai
 ### Full Aion loop confirmed - November 9, 2026
 
 Founder confirmed manual revision, local refresh and a second explicit Aion reading addressed only the refreshed passage without a comparison claim. Rebuilt the bound preview using the normal Gemini configuration for the next provider acceptance check. No application-code change was needed. Broader coaching-quality evaluation, Gemini success and standalone/public installation remain open.
+
+### Gemini loop confirmed - November 9, 2026
+
+Founder confirmed both Gemini readings worked in the bound preview, following the requested manual revision and refresh sequence. O-04 core loop now has founder-reported real-host evidence for the shipping provider. Rebuilt the standalone Gemini add-on for a fresh Editor add-on test using the native entry points that fixed the bound preview. Standalone install/authorization remains a separate gate. No public release or student outcomes are claimed.

@@ -32,3 +32,11 @@ Reference: https://developers.google.com/workspace/add-ons/how-tos/testing-edito
 Actual host result: sidebar menu, authorization and rendering pass. Capture RPC attempts show zero-duration failed executions and invoke the client failure handler; no selection text has been verified yet. Root cause remains unresolved. Template-literal lowering is a verified rendering fix; putting exported wrappers on separate lines did not resolve capture. Do not mark O-03 done.
 
 Follow-up: founder confirmed exact selected-paragraph capture in the corrected document-bound preview using a private browser. Full-paragraph RangeElements are now supported. In-app calls still fail authorization; standalone test retest remains pending. Keep the pending cases above open rather than inferring success from this one host result.
+
+## Current handoff - November 9, 2026
+
+Founder confirmed the complete synthetic revision loop with both Aion (test-only) and Gemini in the private-browser document-bound preview. This includes local refresh and a second explicit reading of only the refreshed passage. The pending table entries above remain open for standalone/edge-case verification.
+
+The standalone project has been rebuilt with the same native entry points, capture fixes and Gemini request implementation. In the owning account private browser, open the standalone Apps Script project, choose Deploy > Test deployments, select the saved synthetic Doc test configured for Latest Code, and Execute. Open the add-on through **Extensions > yourIntelligent > Open yourIntelligent**, not the bound **yourIntelligent Preview** menu. Grant the requested document/sidebar/network permissions if prompted. Capture synthetic plain text and request one Gemini reading using the masked key field. Record the visible outcome without credentials.
+
+Official test flow: https://developers.google.com/workspace/add-ons/how-tos/testing-editor-addons
