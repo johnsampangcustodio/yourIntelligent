@@ -1,0 +1,4 @@
+.hyperframes/
+node_modules/
+check-result.json
+renders/frame-*.jpg

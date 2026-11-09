@@ -1,5 +1,5 @@
 {
-  "status": "review candidate; not submitted or published",
+  "status": "Marketplace review submitted; OAuth verification incomplete; not publicly published",
   "prepared_on": "2026-11-09",
   "application_commit": "3bdb37a",
   "apps_script_version": 2,
@@ -42,7 +42,7 @@
     "version_update_status": "Saved; console returned Saved with script version 2"
   },
   "store_listing": {
-    "saved_as_draft": true,
+    "saved_as_draft": false,
     "language": "English",
     "category": "Academic Resources",
     "pricing": "Free of charge app; provider charges disclosed",
@@ -59,22 +59,38 @@
       "prepared feedback",
       "select a passage",
       "refreshed local sample preview"
-    ]
+    ],
+    "publication_status": "Submitted for review; not approved or public"
   },
-  "oauth_publishing_status": "In production; unverified; Marketplace listing remains a draft",
+  "oauth_publishing_status": "In production but unverified. Automated branding retry returned the homepage finding. Additional-review preparation opened but was not submitted.",
   "homepage_ownership": {
     "property": "https://johnsampangcustodio.github.io/yourIntelligent/",
     "method": "HTML file",
     "status": "Search Console ownership verified",
     "verification_file": "google8133eefb59483b16.html",
     "pages_commit": "87f4bdfede3155d17ba7c2e68aa66aef3881cbd8",
-    "branding_retry_note": "Ownership is verified. Branding retry remains for the next publishing slice; no retry performed during launch packaging."
+    "branding_retry_note": "Retried November 9: same homepage-registration finding. Combined additional-review form additionally requires scope justification and a YouTube demo link."
   },
-  "submission_hold": "Publishing reviews remain pending; founder directed launch packaging before resuming branding/OAuth work. No review submission in this slice.",
+  "submission_hold": "Founder authorized no-cost submission. Marketplace submitted; OAuth requires a demo-video URL and homepage-ownership appeal.",
   "provider_policy_status": "Founder chose not to pursue compatibility clarification. Inquiry remains unsent; no compliance conclusion is asserted.",
   "deferred_checks": "Existing quality/accessibility/host edge-case items remain documented. No extra test round or founder verification request in this packaging slice.",
   "release_candidate_number": 2,
   "previous_candidate_archive": "docs/releases/0.1.0-candidate-1.json",
-  "review_submission_performed": false,
-  "public_addon_available": false
+  "review_submission_performed": true,
+  "public_addon_available": false,
+  "marketplace_review_status": "In review; console returned Review submitted and the draft is in review and cannot be edited",
+  "cost_check": {
+    "checked_on": "2026-11-09",
+    "billing_account_linked": false,
+    "billing_console_text": "This project has no billing account; This project is not linked to a billing account",
+    "payment_step_encountered": false,
+    "paid_service_or_assessor_activated": false,
+    "marketplace_listing_fee_source": "https://developers.google.com/workspace/marketplace/overview",
+    "note": "No listing fee per Google. Gemini account usage remains separate."
+  },
+  "oauth_submission_materials": {
+    "scope_justification": "Prepared and entered; not saved because the YouTube field is required",
+    "demo_video": "videos/yourintelligent-demo/renders/yourIntelligent-demo.mp4: 25-second captioned prepared-sample walkthrough, locally rendered at no cost; not OAuth consent/live-scope footage; not uploaded to YouTube",
+    "appeal": "Factual ownership explanation prepared in docs/OAUTH-REVIEW-PACKAGE.md; not submitted"
+  }
 }

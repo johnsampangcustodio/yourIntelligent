@@ -2,6 +2,8 @@
 
 Status: preparation, not submitted or publicly deployed. Publisher: **John Phillip Custodio**. Student support destination: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). Public personal-account distribution and individual installation are the intended audience.
 
+**Latest status — November 9:** Marketplace **Review submitted**, targeting version 2; the draft is locked while in review. Not approved or publicly available. The publisher project has no billing account linked; no payment or paid service was activated. OAuth/branding remains incomplete: automated ownership retry returned the same finding; additional-review preparation requires a demo-video URL and scope justification. See [OAuth review package](OAUTH-REVIEW-PACKAGE.md). The founder requested a quick 15–30-second video; a [25-second sample walkthrough](../videos/yourintelligent-demo/renders/yourIntelligent-demo.mp4) is now rendered locally, but does not include actual OAuth consent/live-scope footage. Earlier draft/unsubmitted statements below are historical.
+
 ## Current candidate — November 9, 2026
 
 Apps Script immutable version **2** packages the redesigned sidebar from application commit **3bdb37a**, description `0.1.0 design release candidate; app 3bdb37a; Gemini; not public`. The Marketplace App Configuration was saved with script version 2. Version 1 is retained as a historical candidate; it is not the current listing target. Current hashes/status are in [RELEASE-CANDIDATE.json](RELEASE-CANDIDATE.json); the previous metadata is archived under [releases/0.1.0-candidate-1.json](releases/0.1.0-candidate-1.json).
