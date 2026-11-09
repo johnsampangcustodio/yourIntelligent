@@ -11,6 +11,8 @@ for(const [font,weight] of fonts)await copyFile(`node_modules/@fontsource/${font
 for(const font of new Set(fonts.map(([font])=>font)))await copyFile(`node_modules/@fontsource/${font}/LICENSE`,`site/assets/${font}-LICENSE.txt`);
 await copyFile('assets/site.css','site/assets/site.css');
 await writeFile('site/.nojekyll','');
+// Public Google ownership proof; keep it in every deployment to retain verification.
+await copyFile('assets/site-verification/google8133eefb59483b16.html','site/google8133eefb59483b16.html');
 const nav=(file)=>[['index.html','How it works'],['privacy.html','Privacy'],['terms.html','Terms'],['support.html','Support']].map(([href,label])=>`<a href="${href}"${file===href?' aria-current="page"':''}>${label}</a>`).join('');
 for(const [source,file,title] of pages){
  let md=await readFile(`docs/public/${source}`,'utf8');
