@@ -52,3 +52,7 @@ Founder confirmed exact words, spaces, Café 😀 and paragraph break when captu
 ### Reauthorization gate after publisher linkage
 
 The standalone script was linked to standard publisher project 49660377294 on November 9, 2026. Earlier successful host checks remain evidence for that build, but the new OAuth client requires renewed authorization. Relaunch the saved standalone Editor add-on test, authorize current-document/sidebar/external-request access, then capture synthetic text and request a Gemini reading. Record this as post-switch acceptance only after it actually succeeds. No need to change or share API keys in chat.
+
+### Post-switch acceptance passed
+
+Founder confirmed capture and a Gemini reading worked again after renewed authorization under standard publisher project 49660377294. This closes the post-switch core-path gate, without establishing the other pending host/model cases or public installation.

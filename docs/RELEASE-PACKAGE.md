@@ -43,7 +43,7 @@ Reviewer sequence: install → authorize → open through Extensions → capture
 
 ## Version, recovery and evidence
 
-Keep the current development branch separate from a frozen release candidate. Run `npm ci` and `npm run check`, then build the standard Gemini artifact. Record commit SHA, model `gemini-3.8-flash`, prompt text from `src/shared/revision.ts`, generated manifest, Apps Script version and deployed listing version together. No release version is recorded yet.
+Keep the current development branch separate from a frozen release candidate. Run `npm ci` and `npm run check`, then build the standard Gemini artifact. Record commit SHA, model `gemini-3.8-flash`, prompt text from `src/shared/revision.ts`, generated manifest, Apps Script version and deployed listing version together. Apps Script version **1** is recorded as a review candidate, not a public release. See docs/RELEASE-CANDIDATE.json for its description, application source reference and local artifact hashes.
 
 To restore a previous release, check out its recorded commit, rebuild, upload to the standalone target and select the recorded/replacement version using the actual Marketplace configuration. Verify the current Google update path before changing the listing. A user can always stop requests by closing the sidebar; an operator-wide provider pause is now implemented through the `PROVIDER_PAUSED` script property. See docs/HARDENING-RESULTS.md for activation and in-flight limitations.
 
@@ -103,8 +103,16 @@ Founder delegated the staged switch decision after the exact effects were disclo
 
 ### Marketplace SDK enablement handoff
 
-Opened the official **Google Workspace Marketplace SDK** library entry, service `appsmarket-component.googleapis.com`, in yourintelligent-publisher. The Enable button is available; no payment/billing step is displayed. The product page explicitly states use agrees to **Google APIs Terms of Service** and **Google Apps Marketplace SDK** terms. Those are additional agreements beyond the already accepted User Data Policy; request specific confirmation before enabling. SDK is not yet enabled.
+Opened the official **Google Workspace Marketplace SDK** library entry, service `appsmarket-component.googleapis.com`, in yourintelligent-publisher. The Enable button is available; no payment/billing step is displayed. The product page explicitly states use agrees to **Google APIs Terms of Service** and **Google Apps Marketplace SDK** terms. Those are additional agreements beyond the already accepted User Data Policy; specific approval was obtained before enabling. The founder subsequently approved those terms conditional on no cost. SDK enablement succeeded with no payment/billing prompt; service status is Enabled.
 
 Official setup: https://developers.google.com/workspace/marketplace/enable-configure-sdk
 
 After SDK enablement, prepare the Editor add-on integration using the standalone script ID and a recorded release version (not the bound preview). Current consumer account supports public publishing; use individual installation as planned. Complete a fresh synthetic standalone capture/reading after reauthorization, then address the remaining release gates. No paid service or production release was activated in the project-switch slice.
+
+### SDK enabled and configuration staged - November 9, 2026
+
+Founder confirmed capture plus a Gemini reading worked again after the Cloud-project switch. Enabled the Marketplace SDK after explicit agreement approval. Created immutable Apps Script version **1** with description `0.1.0 review candidate; app 56dc992; Gemini; not a public release`. No new app code was written or deployed in this slice.
+
+Prepared SDK App Configuration: Public visibility, Individual + Admin Install, **Docs add-on** only, standalone script ID and version 1. Removed default userinfo.email and userinfo.profile entries; only the three manifest scopes remain. Developer name, LinkedIn website, jpsc@tuta.io and product URL are filled. The two sensitive scopes are labeled Unverified.
+
+**Save Draft was attempted but rejected because Trader Status is mandatory.** The dropdown offers only Trader and Non-trader, despite the documentation describing an unspecified state. No classification was inferred. Await founder declaration. Configuration remains staged in the browser, not saved, and no listing was submitted. No payment/billing step occurred.

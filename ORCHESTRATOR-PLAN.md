@@ -232,14 +232,14 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 | Ticket | Initial status | Evidence / next action |
 |---|---|---|
 | O-01 | Done locally | TypeScript/esbuild/Vite scaffold, bundled sidebar, sample journey, 4 passing tests; see README |
-| O-02 | Active / standard project created | Cloud access restored after founder enabled 2SV; yourintelligent-publisher (49660377294) created, not linked. OAuth created; branding/scopes saved; standard linkage verified; SDK agreements and post-switch reauthorization pending |
+| O-02 | Active / standard project created | Cloud access restored after founder enabled 2SV; yourintelligent-publisher (49660377294) created, not linked. OAuth created; branding/scopes saved; standard linkage verified; SDK enabled; post-switch core test passed |
 | O-03 | Core standalone capture confirmed / edge cases open | Founder confirmed standalone capture + Gemini reading; selection/tab edge cases remain open |
 | O-04 | Core loop confirmed in bound preview | Founder confirmed both Aion and Gemini revision loops. Standalone test and broader output evaluation remain open; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
 | O-06 | Ready for implementation alongside slices | Current design plan/tokens/Figma available |
 | O-07 | Active / deterministic hardening passes | 28 tests; stale capture/input preservation, structural paragraph boundaries, ledger failures and operator pause checked. Updated real-host selection and coaching corpus remain open |
 | O-08 | Public pages live / listing assets and setup pending | John Phillip Custodio; LinkedIn support; jpsc@tuta.io confirmed; GitHub Pages product/privacy/terms/support URLs verified |
-| O-09 | Queued | Needs concrete release package |
+| O-09 | Configuration staged / not submitted | SDK enabled; version 1 candidate; App Configuration save blocked on required founder trader declaration; verification/listing gates remain |
 | O-10 | Working draft ready | CASE-STUDY.md distinguishes implementation evidence from unevaluated outcomes; screenshots/public release section pending |
 
 Session handoff format: **completed and evidence; active task; blocker and owner; next exact action; any changed decision**. Keep this ledger accurate and concise as work progresses.
@@ -303,3 +303,7 @@ Founder authorized policy acceptance conditional on free setup. No payment/billi
 ### Standard Cloud linkage completed - November 9, 2026
 
 After disclosure of the exact irreversible switch, the founder delegated the decision. Applied Set project and verified GCP Standard / 49660377294 in standalone Apps Script settings. No billing/payment step or paid-service activation. Inspected the Marketplace SDK (correct publishing SDK, not licensing API); its Enable button is ready but use introduces Google APIs and Marketplace SDK terms, so additional agreement confirmation is required before activation. Next: renew standalone authorization/test and enable SDK after the specific agreement decision, then populate a draft Editor add-on listing.
+
+### Marketplace SDK and versioned candidate - November 9, 2026
+
+Founder approved SDK/API terms at no cost and reported post-switch capture + Gemini reading success. Enabled SDK; created Apps Script version 1 review candidate; filled Public/Individual + Admin/Docs-only configuration with the standalone script, version, exact three scopes and confirmed developer/contact URLs. Removed SDK default email/profile scopes. Save Draft failed on mandatory Trader/Non-trader status; asked founder rather than assigning a legal status. SDK configuration is staged, not saved; no review submission. Release-CANDIDATE metadata records local artifact hashes and the absence of remote byte comparison. Next: save config after founder declaration, prepare store listing and required verification evidence.

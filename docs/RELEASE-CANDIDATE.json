@@ -1,0 +1,28 @@
+{
+  "status": "review candidate; not submitted or published",
+  "prepared_on": "2026-11-09",
+  "application_commit": "56dc992",
+  "apps_script_version": 1,
+  "version_description": "0.1.0 review candidate; app 56dc992; Gemini; not a public release",
+  "standalone_script_id": "1lNA7NUbI5AGV25XnNzZFRBlI9FXMKypagZAT_V21whtdrsshBjt0Ea5l",
+  "publisher_project_id": "yourintelligent-publisher",
+  "publisher_project_number": "49660377294",
+  "release_provider": "Gemini",
+  "model": "gemini-3.8-flash",
+  "prompt_source": "src/shared/revision.ts",
+  "automated_tests_last_passed": 28,
+  "host_evidence": "Founder confirmed capture and one Gemini reading after the standard Cloud project switch; full bound Gemini loop and hardened formatted/Unicode/two-paragraph capture previously confirmed.",
+  "local_artifact_sha256": {
+    "Code.js": "72aa09b42a47ea197c1b4cf114a102a8a5a68a2da3422706b817556a72ea75cd",
+    "Sidebar.html": "a71564df912e9c4c1b19afdae48e4ed9a45a2c6dda220c05e4a78ea10f0b53d1",
+    "appsscript.json": "fcdd545fbe20cb65bd5481afb76a575569a93844231ca6e763b5a4efb45a3556"
+  },
+  "hash_note": "Hashes describe local Gemini build artifacts from the tested source; remote-version byte-for-byte export comparison has not been performed.",
+  "open_gates": [
+    "Required trader declaration before Marketplace draft save",
+    "OAuth verification / public-review requirements",
+    "Real Docs integration screenshot",
+    "Remaining host/failure checks and coaching corpus",
+    "Independent-account public installation"
+  ]
+}
