@@ -18,7 +18,7 @@ This is a small product. Use one repository, one sidebar, one provider, one owne
 |---|---|---|
 | User decisions in this conversation | Scope and priorities | Highest authority; especially light only, BYOK, $0 developer spending, no mandatory send confirmation |
 | PRODUCT-PLAN.md | Audience, job, R1–R10, outcomes | Defines what user value must survive every change |
-| DESIGN-PLAN.md v0.3 | Current experience and visual rules | Current Margin / Cut light direction supersedes older zine/Open Margin concepts |
+| DESIGN-PLAN.md v0.4 and DESIGN-IMPLEMENTATION-PLAN.md | Current experience, visual rules and design execution | Margin / Cut journey composition plus light-showcase controls; restrained motion supersedes the earlier no-motion rule |
 | Current Figma journey and light showcase | Layout and component evidence | Implement the current states; component inventory is not automatically product scope |
 | DEVELOPMENT-PLAN.md | Architecture and original DEV-01–10 tickets | Engineering baseline; verify external APIs and resolve outdated wording before copying |
 | UX-RESEARCH-SYNTHESIS.md | Findings, assumptions, limits | Evidence boundaries for product claims and later evaluation |
@@ -34,7 +34,7 @@ Figma baseline: [journey](https://www.figma.com/design/cCYBiEtcT6Ex7aplARb4Vy/yo
 - Product-plan wording that credentials stay outside the client is too broad: a student key necessarily enters sidebar memory, then passes transiently to Apps Script. Never persist it or embed a publisher key.
 - Refresh captures local text only. It never implicitly sends to Gemini. A subsequent explicit action sends the previewed passage and context.
 - Render the question prominently before the supporting observation, as in the updated Figma. The provider schema may still contain observation/question fields in any order.
-- Keep yourIntelligent as the product name; Margin / Cut is the design concept. Light only, no motion, DM Sans/Roboto, charcoal actions and restrained blue.
+- Keep yourIntelligent as the product name; Margin / Cut is the design concept. Light only, DM Sans/Roboto, charcoal actions and restrained blue. The November 9 design pass permits bounded motion as specified in DESIGN-IMPLEMENTATION-PLAN.md.
 - Do not copy the exact model ID, API revision, endpoint shape, timeout option, scope assumptions, or publishing requirements from the older plan without checking current official documentation and the real account/runtime. These are feasibility checks, not promises.
 - A second reading must have an explicit context contract. If only the new passage is sent, feedback must discuss that passage rather than claim a before/after comparison. Prefer that simpler contract for version one. True comparison would require previewing and authorizing both versions.
 
@@ -317,3 +317,13 @@ Saved founder-declared Non-trader App Configuration. Saved the English store lis
 Google branding returned an unregistered-homepage ownership issue and specified a 24-hour wait after ownership verification. Added the product URL-prefix property in Search Console, deployed the exact public HTML verification file, confirmed HTTP 200/expected body, and observed Ownership verified. Kept the token in the website build to survive future updates. No branding retry/approval is claimed yet. Founder declined adding a non-training-account requirement for now and explicitly chose to hold submissions while free-tier policy fit is clarified. Prepared the exact inquiry, identified the official Workspace Developers forum as a documented no-cost question route, and have not sent a message. No app-code or runtime behavior changes in this slice.
 
 Outreach handoff: founder chose to handle the provider-policy inquiry personally. It remains unsent in docs/PROVIDER-POLICY-QUESTION.md. Marketplace and sensitive-scope submissions remain held. No background polling, scheduled retry or outbound message has been set up.
+
+### Design refinement takes priority — November 9, 2026
+
+Founder redirected work to design before completing branding/OAuth verification and asked not to prioritize provider data-use compatibility. No policy outreach or review submission was initiated. Inspected the current live Figma page, all 13 Margin / Cut state contexts/screenshots and the light showcase against the sidebar source. Founder confirmed journey compositions with light-showcase controls (pale-blue arrows, readable boundaries, 44px targets). Added DESIGN-IMPLEMENTATION-PLAN.md with concise copy proposals, bounded motion, source-level gaps, D1–D5 slices and visual/behavior acceptance criteria. DESIGN-PLAN v0.4 replaces the previous no-motion rule with this restrained motion specification. No UI/source redesign, Figma edit or deployment yet. Next slice: D1 shell/tokens and Select + Preview comparison; finish with founder review and the next-step clarification.
+
+### Sidebar redesign implemented and uploaded — November 9, 2026
+
+Founder explicitly requested implementation rather than further plan approval. Rebuilt the actual sidebar's shell, hero/task zones, status, passage preview, lens controls, actions and key form using current Margin / Cut composition and confirmed light-showcase controls. Shortened task copy; retained actual question while writing; added distinct refreshed preview, pending-reading screen, redirection and cause-specific recovery. Added bounded CSS motion with reduced-motion overrides. Preserved native Apps Script/provider interfaces, explicit send, current-passage-only payload and stale-result guards. Pending completion offers View reading without navigating out of writing.
+
+31 automated tests, strict typecheck and standalone/bound builds pass. Uploaded both developer scripts. Observed redesigned Select, sample Preview and prepared Feedback inside the standalone Editor add-on in real Docs. See docs/design-refresh/README.md and screenshots. No new live Gemini request or public submission was performed. D1–D4 code is implemented; full per-state visual comparison, reduced-motion/zoom manual acceptance and redesigned live Gemini loop remain, along with D5 release-candidate/listing refresh. Next: founder visual feedback and one redesigned live loop before updating review assets and resuming publishing work.

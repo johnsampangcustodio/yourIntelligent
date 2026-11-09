@@ -50,7 +50,7 @@ A separate Aion Labs build exercised the synthetic test loop before Gemini verif
 
 | Evidence | What it establishes | Limit |
 |---|---|---|
-| 28 automated tests plus strict typecheck/build | Selection logic, request/output boundaries, duplicate suppression, late-result handling and explicit refreshed-only sends in deterministic checks | Not live host or broad model-quality coverage |
+| 31 automated tests plus strict typecheck/build | Selection logic, request/output boundaries, duplicate suppression, late-result handling, writing-focus preservation and explicit refreshed-only sends in deterministic checks | Not live host or broad model-quality coverage |
 | Founder-confirmed Aion full loop | Capture, first reading, manual revision, local refresh and refreshed-only second reading in bound preview | Synthetic development test; not the release provider |
 | Founder-confirmed Gemini full loop | The same revision sequence works with the shipping provider in bound preview | Not student outcome evidence |
 | Founder-confirmed standalone capture + Gemini reading | Core flow also runs through an Editor add-on test deployment | Not public installation or full standalone edge-case coverage |
@@ -62,6 +62,8 @@ Host edge cases and accessibility, broader synthetic coaching evaluation, provid
 The next research stage is voluntary student use with recent reflection drafts: do students understand and endorse their revision choices, can they reject unhelpful questions, and is the extra effort worthwhile? Faster completion, ownership, learning and enjoyment are separate outcomes to investigate. No student findings or psychological benefits are claimed yet.
 
 ## Portfolio completion notes
+
+The November 9 design implementation replaces the flat MVP layout with Margin / Cut region hierarchy, compact status pills, readable light-showcase controls and paired actions. The question stays visible while writing, and a refreshed passage gets its own unsent preview. Shorter task copy removes repeated guidance. Motion is limited to brief action/selection feedback and state entrances, with reduced-motion overrides. A request finishing in the background offers View reading without taking the student out of writing. See [design evidence](docs/design-refresh/README.md) for the actual standalone Docs screenshot and verification limits. No improved usability or agency is claimed from visual polish alone.
 
 This draft is editable source, not a finished visual portfolio. Add real synthetic-content screenshots of passage preview, grounded feedback and refreshed reading; a concise Figma-to-host comparison; the public installation link when verified; and founder-reviewed role/decision captions. Do not use staged model feedback as a claimed live result. See [release package](docs/RELEASE-PACKAGE.md) for remaining delivery gates.
 

@@ -2,7 +2,9 @@
 
 Execution sequence, milestone gates, ownership, and delivery tracking are in [ORCHESTRATOR-PLAN.md](ORCHESTRATOR-PLAN.md).
 
-November 8, 2026 | v0.3 | Updated from Margin / Cut Figma frames
+November 9, 2026 | v0.4 | Margin / Cut fidelity pass and restrained motion plan
+
+The current design execution specification is [DESIGN-IMPLEMENTATION-PLAN.md](DESIGN-IMPLEMENTATION-PLAN.md): inspected Figma references, confirmed source precedence, concise copy, implementation slices and acceptance checks. Design refinement now precedes the remaining publishing verification work. The first sidebar implementation pass is uploaded to the development scripts; see [evidence and limits](docs/design-refresh/README.md). Figma itself is unchanged.
 
 Implements [PRODUCT-PLAN.md](PRODUCT-PLAN.md) and respects the delivery decisions in [DEVELOPMENT-PLAN.md](DEVELOPMENT-PLAN.md). The audience, revision task, playful direction, Gemini BYOK, public distribution, solo delivery, and $0 developer spending target are confirmed. Personas, anticipated behaviors, and expected benefits remain design hypotheses. User evaluation is deferred.
 
@@ -298,7 +300,7 @@ DM Sans uses optical size 14 in the showcase; Roboto uses normal width 100. Frau
 - Primary actions use a pill shape, typically 28px radius in journey frames and 200px in the showcase. Secondary actions also use pills. Input fields use 4px corners. Retain 24–28px rounding for larger surfaces where shown.
 - Minimum interactive target 44px; ordinary stroke 1px; focus outline 2px. Preserve visible separation around focus. Use a contrasting pale-blue focus treatment against charcoal.
 - Paired secondary actions can use two 130px controls with an 8px gap when their labels fit. Stack them for wrapping, zoom, or longer labels.
-- No decorative shadows, gradients, or motion. This replaces the earlier optional 120–160ms transition rule. Loading uses truthful status text, not simulated progress.
+- No decorative shadows or gradients. The November 9 design request supersedes the previous no-motion rule: allow only bounded 100–180ms action/selection/state feedback specified in DESIGN-IMPLEMENTATION-PLAN.md. Respect reduced motion with instant states. Loading uses truthful static status text, not simulated progress; errors, focus and exits are immediate.
 - Full-height states can scroll. Keep the return to writing easy to find; verify real feedback and long passages at actual width and browser zoom.
 
 ### Components and interaction contracts

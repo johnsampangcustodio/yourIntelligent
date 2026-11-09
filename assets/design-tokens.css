@@ -76,5 +76,8 @@
   --lens-border: var(--color-border-control);
   --focus-outline-width: 2px;
   --focus-outline-offset: 3px;
-  --yi-motion-fast: 0ms;
+  --motion-feedback: 120ms;
+  --motion-selection: 140ms;
+  --motion-state: 180ms;
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
 }
