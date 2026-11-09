@@ -90,3 +90,5 @@ References: [Apps Script Cloud project types and switch effects](https://develop
 - OAuth configuration creation: pending; no project link or public submission
 
 The icon/banner source and validated PNGs are in docs/listing-assets. Console screenshots remain local and ignored by Git. No application behavior changed in this asset/setup slice, so the prior 28 passing application tests were not rerun merely for documentation/graphics.
+
+Policy review before submission: compare the actual scope classification and provider configuration with the [Workspace developer policy's Limited Use section](https://developers.google.com/workspace/workspace-api-user-data-developer-policy#limited-use). That section restricts general model training for data derived from Sensitive/Restricted scopes. Unpaid Gemini terms permit product/model improvement; `store:false` alone does not resolve that distinction. Applicability to the exact current-document scope and the appropriate provider account arrangement must be verified before release; no blanket compliance or free-tier suitability claim is made here.
