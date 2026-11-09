@@ -232,7 +232,7 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 | Ticket | Initial status | Evidence / next action |
 |---|---|---|
 | O-01 | Done locally | TypeScript/esbuild/Vite scaffold, bundled sidebar, sample journey, 4 passing tests; see README |
-| O-02 | Active / standard project created | Cloud access restored after founder enabled 2SV; yourintelligent-publisher (49660377294) created, not linked. OAuth created; branding/scopes saved; irreversible Apps Script linkage staged for confirmation |
+| O-02 | Active / standard project created | Cloud access restored after founder enabled 2SV; yourintelligent-publisher (49660377294) created, not linked. OAuth created; branding/scopes saved; standard linkage verified; SDK agreements and post-switch reauthorization pending |
 | O-03 | Core standalone capture confirmed / edge cases open | Founder confirmed standalone capture + Gemini reading; selection/tab edge cases remain open |
 | O-04 | Core loop confirmed in bound preview | Founder confirmed both Aion and Gemini revision loops. Standalone test and broader output evaluation remain open; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
@@ -299,3 +299,7 @@ Founder confirmed exact formatted/Unicode/two-paragraph capture for hardened sta
 ### OAuth created without a billing step - November 9, 2026
 
 Founder authorized policy acceptance conditional on free setup. No payment/billing step appeared; accepted the required policy and observed OAuth configuration created. Saved product/privacy/terms URLs and authorized domain. Saved the three manifest scopes: Docs current-only is non-sensitive, UI/external request are sensitive in console; no restricted scopes. Added owner as sole test user; External/Testing retained. The Google project-switch form is filled with project 49660377294 but Set project is unclicked because the UI warns permanent revocation of old grants and no return to the Apps Script-managed default. Request explicit confirmation for that prepared switch. No app-code changes or new tests in this account-configuration slice.
+
+### Standard Cloud linkage completed - November 9, 2026
+
+After disclosure of the exact irreversible switch, the founder delegated the decision. Applied Set project and verified GCP Standard / 49660377294 in standalone Apps Script settings. No billing/payment step or paid-service activation. Inspected the Marketplace SDK (correct publishing SDK, not licensing API); its Enable button is ready but use introduces Google APIs and Marketplace SDK terms, so additional agreement confirmation is required before activation. Next: renew standalone authorization/test and enable SDK after the specific agreement decision, then populate a draft Editor add-on listing.

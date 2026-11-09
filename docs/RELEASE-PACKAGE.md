@@ -72,11 +72,11 @@ Pages source: `codex/public-pages` at `85aadc3f3fe5821640f090b77fa93db25b2c244e`
 
 ## Publisher setup inspection - November 9, 2026
 
-The Apps Script standalone project still uses **GCP Default**. Google Cloud initially blocked console access pending owner 2-step verification; the founder enabled it and console access was rechecked successfully. Created a dedicated standard project named **yourIntelligent**, project ID **yourintelligent-publisher**, project number **49660377294**, under the owning account. No billing account or paid service was activated by the agent.
+The Apps Script standalone project now uses **GCP Standard: 49660377294**. Google Cloud initially blocked console access pending owner 2-step verification; the founder enabled it and console access was rechecked successfully. Created a dedicated standard project named **yourIntelligent**, project ID **yourintelligent-publisher**, project number **49660377294**, under the owning account. No billing account or paid service was activated by the agent.
 
-The new project is **not yet linked** to Apps Script. Google Auth Platform configuration is **created**. Its initial support-email dropdown only offers the owning Gmail address or a managed Google Group (none exist). Founder initially selected jpsc@tuta.io, which the dropdown does not accept directly, then explicitly approved jpcustodio220@gmail.com for OAuth support. App name yourIntelligent, External/testing audience, Gmail support and Tuta project-contact fields are filled in the new project. The founder approved acceptance conditional on free setup. The User Data Policy was accepted and OAuth creation succeeded with no price, payment or billing step presented. Retain Tuta for developer/privacy contact and LinkedIn for student app support.
+The dedicated project is **linked** to Apps Script. Google Auth Platform configuration is **created**. Its initial support-email dropdown only offers the owning Gmail address or a managed Google Group (none exist). Founder initially selected jpsc@tuta.io, which the dropdown does not accept directly, then explicitly approved jpcustodio220@gmail.com for OAuth support. App name yourIntelligent, External/testing audience, Gmail support and Tuta project-contact fields are filled in the new project. The founder approved acceptance conditional on free setup. The User Data Policy was accepted and OAuth creation succeeded with no price, payment or billing step presented. Retain Tuta for developer/privacy contact and LinkedIn for student app support.
 
-Before linking the new project, complete OAuth setup. Google documents that switching from a default project deletes the default project, cannot be reversed to that default, and requires previous users to reauthorize. Prepare the new configuration first, explain the concrete switch and obtain the required confirmation before that irreversible change. OAuth policy acceptance and configuration creation are complete. No project switch, verification submission or Marketplace submission has occurred.
+Before linking the new project, complete OAuth setup. Google documents that switching from a default project deletes the default project, cannot be reversed to that default, and requires previous users to reauthorize. Prepare the new configuration first, explain the concrete switch and obtain the required confirmation before that irreversible change. OAuth policy acceptance and configuration creation are complete. The project switch is complete; verification and Marketplace submission remain unstarted.
 
 References: [Apps Script Cloud project types and switch effects](https://developers.google.com/apps-script/guides/cloud-platform-projects); [OAuth support email](https://support.google.com/cloud/answer/10311615#user-support-email).
 
@@ -87,7 +87,7 @@ References: [Apps Script Cloud project types and switch effects](https://develop
 - Audience: External; initial testing mode
 - Developer/project notification email: jpsc@tuta.io
 - Required agreement: Google API Services User Data Policy; accepted after explicit founder approval conditioned on free setup
-- OAuth configuration creation: succeeded; no project link or public submission
+- OAuth configuration creation: succeeded; Apps Script linked; no public submission
 
 The icon/banner source and validated PNGs are in docs/listing-assets. Console screenshots remain local and ignored by Git. No application behavior changed in this asset/setup slice, so the prior 28 passing application tests were not rerun merely for documentation/graphics.
 
@@ -99,4 +99,12 @@ Saved the verified product, privacy and terms URLs plus authorized domain `johns
 
 Added only the owner account as a test user; audience remains External and publishing status Testing. No extra OAuth client was manually created: Apps Script linkage is the next step. No billing account, paid service or production publication was activated.
 
-Apps Script **Change project** now has `49660377294` entered. **Set project has not been clicked.** The UI warns existing authentications will be permanently revoked and the script cannot return to an Apps Script-managed project. Await explicit confirmation for that staged irreversible switch, then verify the resulting linkage and reauthorization before Marketplace configuration. Private review screenshot is ignored under docs/local-console/.
+Founder delegated the staged switch decision after the exact effects were disclosed. Clicked Set project and verified **GCP Standard / Project Number 49660377294** in Apps Script settings. Prior authorizations require renewal. Reauthorization/test acceptance after the switch is pending. Private console proof is ignored under docs/local-console/.
+
+### Marketplace SDK enablement handoff
+
+Opened the official **Google Workspace Marketplace SDK** library entry, service `appsmarket-component.googleapis.com`, in yourintelligent-publisher. The Enable button is available; no payment/billing step is displayed. The product page explicitly states use agrees to **Google APIs Terms of Service** and **Google Apps Marketplace SDK** terms. Those are additional agreements beyond the already accepted User Data Policy; request specific confirmation before enabling. SDK is not yet enabled.
+
+Official setup: https://developers.google.com/workspace/marketplace/enable-configure-sdk
+
+After SDK enablement, prepare the Editor add-on integration using the standalone script ID and a recorded release version (not the bound preview). Current consumer account supports public publishing; use individual installation as planned. Complete a fresh synthetic standalone capture/reading after reauthorization, then address the remaining release gates. No paid service or production release was activated in the project-switch slice.

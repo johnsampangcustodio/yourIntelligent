@@ -48,3 +48,7 @@ Founder confirmed capture and a Gemini reading through the standalone Editor add
 ### Updated capture acceptance - November 9, 2026
 
 Founder confirmed exact words, spaces, Café 😀 and paragraph break when capturing two paragraphs with bold text in the hardened standalone build (56dc992). This is founder-reported host evidence for formatted text runs, Unicode and multiple paragraphs. Remaining table/empty/oversize/active-tab cases are still pending.
+
+### Reauthorization gate after publisher linkage
+
+The standalone script was linked to standard publisher project 49660377294 on November 9, 2026. Earlier successful host checks remain evidence for that build, but the new OAuth client requires renewed authorization. Relaunch the saved standalone Editor add-on test, authorize current-document/sidebar/external-request access, then capture synthetic text and request a Gemini reading. Record this as post-switch acceptance only after it actually succeeds. No need to change or share API keys in chat.
