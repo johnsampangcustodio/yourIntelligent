@@ -10,7 +10,8 @@
     "test": "vitest run --pool=threads --maxWorkers=1",
     "check": "npm run typecheck && npm test && npm run build",
     "clasp": "clasp",
-    "build:bound": "node scripts/build.mjs --bound"
+    "build:bound": "node scripts/build.mjs --bound",
+    "build:aion-test": "node scripts/build.mjs --bound --aion-test"
   },
   "repository": {
     "type": "git",

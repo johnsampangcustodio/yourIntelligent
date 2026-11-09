@@ -4,7 +4,7 @@ A student-directed revision partner for Google Docs. Students write all assignme
 
 ## Current build
 
-Local sample journey and Apps Script selection adapter. **Live Gemini feedback and public deployment are not implemented yet.** Sample feedback is explicitly prepared, never a substitute for a failed live request.
+Local sample journey, Apps Script selection adapter, and live-request implementation. Gemini is the release provider; a separate Aion Labs build is for synthetic tests only. **Live provider success and public deployment are not verified yet.** Sample feedback is explicitly prepared, never a substitute for a failed live request.
 
 ## Develop
 
@@ -20,7 +20,7 @@ Use Node 22 or newer. Run `npm ci`, then `npm run dev`. Open the localhost URL p
 4. Configure an Editor add-on test deployment for a synthetic Google Doc. Open the add-on menu, select a plain-text passage, and capture it.
 5. Check partial text, Unicode, multiple paragraphs, active tabs, empty selection, and unsupported/table selections in the real host. No document writes are exposed.
 
-The current manifest requests current-document and sidebar UI access only. Network/provider scope will be added with the live adapter. Current-document permission is broader than read-only; the adapter implementation provides no write operations.
+The manifest requests current-document, sidebar UI and outbound network access. Existing testers must authorize the added network scope. Current-document permission is broader than read-only; the adapter implementation provides no write operations.
 
 ## Delivery
 
@@ -33,3 +33,9 @@ Exact selected-paragraph capture was confirmed by the founder in a private brows
 `npm run build:bound` creates the same UI/adapter with a development-only custom menu in `dist-bound/`. An ignored `.clasp.bound.json` targets the synthetic test document's bound script. Upload that target with `npm run clasp -- -P <absolute-path-to-.clasp.bound.json> push --force`. The normal `npm run build` and original `.clasp.json` remain the standalone Editor add-on target. Keep the two targets distinct.
 
 If project consent needs verification, run `authorizeAccess` from the Apps Script editor. It checks the existing manifest scopes without reading assignment text. See [capture diagnosis](docs/CAPTURE-DIAGNOSIS.md) for actual experiments and unresolved environment restrictions.
+
+## Provider test build
+
+Run `npm run build:aion-test` to build the bound Aion preview, then upload with the ignored bound clasp configuration described above. Aion builds are rejected without `--bound`. Normal builds use Gemini. Enter an actual API key through the masked session field, never chat. The endpoint URL is not a credential. Provider charges/quota and terms apply.
+
+Refresh only captures locally. The next explicit send assesses only the refreshed passage. See [live provider checklist](docs/LIVE-PROVIDER-CHECKLIST.md) for manual acceptance, data handling and outstanding release checks.

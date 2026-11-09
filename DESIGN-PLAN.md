@@ -360,3 +360,7 @@ The current Figma contains the 13-state Margin / Cut journey, a Docs context vie
 ## Skill and source provenance
 
 Applied the local figma-use skill to inspect current canvas layers, exact typography, component dimensions, and semantic roles, and visually reviewed the light showcase. Sources: the linked Figma frames, user-provided overview screenshot, and the Google for Education style-reference text at `C:/Users/jpcus/.codex/attachments/386af19c-4c31-4e4a-b014-d1189badeb5d/Pasted text.txt`. The user's answers resolve naming, release theme scope, and send confirmation. This revision updates the local plan and starter tokens; it does not modify Figma.
+
+### Confirmed implementation decisions - November 9, 2026
+
+Gemini remains the release provider. Aion Labs is restricted to a synthetic document-bound development test build. Each explicit reading assesses only the current captured passage, chosen focus and optional context; a second reading sends no prior draft and makes no comparison claim. Refresh remains local until the student explicitly sends. The API key stays in sidebar memory and is never persisted by the app. See docs/LIVE-PROVIDER-CHECKLIST.md for implementation evidence and pending live acceptance.

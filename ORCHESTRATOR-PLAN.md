@@ -233,8 +233,8 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 |---|---|---|
 | O-01 | Done locally | TypeScript/esbuild/Vite scaffold, bundled sidebar, sample journey, 4 passing tests; see README |
 | O-02 | Ready | Account and key available; inspect actual setup and official requirements |
-| O-03 | Active / host verification pending | Read-only selection adapter implemented and locally tested; Google authorization and real test deployment still required |
-| O-04 | Queued | Needs exact capture and verified provider contract |
+| O-03 | Core capture confirmed / standalone pending | Founder confirmed exact paragraph capture in private-browser bound preview; standalone install and host edge cases remain open |
+| O-04 | Implemented / live acceptance pending | Gemini release adapter, bound-only Aion test build, session key, explicit send, refreshed-only second reading; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
 | O-06 | Ready for implementation alongside slices | Current design plan/tokens/Figma available |
 | O-07 | Queued; basic guards included in O-04 | Complete matrix after full loop |
@@ -263,3 +263,7 @@ Host verification update: Editor add-on test is saved and executed; founder auth
 ### Capture diagnostic outcome
 
 The founder confirmed exact paragraph capture in a private-browser document-bound preview after native top-level server entry points and whole-paragraph handling were implemented. Ten local tests pass. A separate repeatable bound-preview build exists; it is a development target, not public distribution. O-03 has a working core capture path but remains active for standalone add-on verification and remaining live selection/tab cases. In-app browser authorization rejection remains unresolved. Next implementation work is the real Gemini adapter and explicit-request loop, with standalone publication prerequisites retained in parallel. No psychological/user-study outcomes are claimed.
+
+### Provider slice - November 9, 2026
+
+Founder selected Aion Labs for synthetic testing only; Gemini remains the release provider. Second readings assess only the refreshed passage, with no earlier draft sent or comparison claim. Request implementation and deterministic tests are ready; actual live responses and standalone/public installation remain unverified. Session keys are never persisted; only nonce/timestamp duplicate-request metadata is stored. Next gate: founder performs one deliberate request using an actual key in the masked sidebar field.

@@ -369,3 +369,7 @@ Record error counts, timing, model/configuration version and user-reported issue
 - **gemini-api-dev:** current provider documentation, structured output, explicit request settings, no provider conversation storage dependency.
 
 This engineering plan implements the product decisions; it does not replace [PRODUCT-PLAN.md](PRODUCT-PLAN.md) or claim deferred research outcomes.
+
+### Confirmed implementation decisions - November 9, 2026
+
+Gemini remains the release provider. Aion Labs is restricted to a synthetic document-bound development test build. Each explicit reading assesses only the current captured passage, chosen focus and optional context; a second reading sends no prior draft and makes no comparison claim. Refresh remains local until the student explicitly sends. The API key stays in sidebar memory and is never persisted by the app. See docs/LIVE-PROVIDER-CHECKLIST.md for implementation evidence and pending live acceptance.

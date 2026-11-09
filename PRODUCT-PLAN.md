@@ -422,3 +422,7 @@ No additional clarification is needed to design the first revision loop. Distrib
 ## 17. Skill provenance
 
 Applied installed skills from Dean Peters' [Product Manager Skills](https://github.com/deanpeters/Product-Manager-Skills): [proto-persona](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/proto-persona), [customer-journey-map](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/customer-journey-map), [user-story-mapping](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping), and [prd-development](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/prd-development). Used their structures to create a provisional product/design brief; this is not represented as a validated persona or completed research process. Source skills identify their license as CC BY-NC-SA 4.0.
+
+### Confirmed implementation decisions - November 9, 2026
+
+Gemini remains the release provider. Aion Labs is restricted to a synthetic document-bound development test build. Each explicit reading assesses only the current captured passage, chosen focus and optional context; a second reading sends no prior draft and makes no comparison claim. Refresh remains local until the student explicitly sends. The API key stays in sidebar memory and is never persisted by the app. See docs/LIVE-PROVIDER-CHECKLIST.md for implementation evidence and pending live acceptance.
