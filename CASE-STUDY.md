@@ -50,7 +50,7 @@ A separate Aion Labs build exercised the synthetic test loop before Gemini verif
 
 | Evidence | What it establishes | Limit |
 |---|---|---|
-| 19 automated tests plus strict typecheck/build | Selection logic, request/output boundaries, duplicate suppression, late-result handling and explicit refreshed-only sends in deterministic checks | Not live host or broad model-quality coverage |
+| 28 automated tests plus strict typecheck/build | Selection logic, request/output boundaries, duplicate suppression, late-result handling and explicit refreshed-only sends in deterministic checks | Not live host or broad model-quality coverage |
 | Founder-confirmed Aion full loop | Capture, first reading, manual revision, local refresh and refreshed-only second reading in bound preview | Synthetic development test; not the release provider |
 | Founder-confirmed Gemini full loop | The same revision sequence works with the shipping provider in bound preview | Not student outcome evidence |
 | Founder-confirmed standalone capture + Gemini reading | Core flow also runs through an Editor add-on test deployment | Not public installation or full standalone edge-case coverage |

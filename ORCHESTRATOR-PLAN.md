@@ -237,7 +237,7 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 | O-04 | Core loop confirmed in bound preview | Founder confirmed both Aion and Gemini revision loops. Standalone test and broader output evaluation remain open; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
 | O-06 | Ready for implementation alongside slices | Current design plan/tokens/Figma available |
-| O-07 | Queued; basic guards included in O-04 | Complete matrix after full loop |
+| O-07 | Active / deterministic hardening passes | 28 tests; stale capture/input preservation, structural paragraph boundaries, ledger failures and operator pause checked. Updated real-host selection and coaching corpus remain open |
 | O-08 | Public pages live / listing assets and setup pending | John Phillip Custodio; LinkedIn support; jpsc@tuta.io confirmed; GitHub Pages product/privacy/terms/support URLs verified |
 | O-09 | Queued | Needs concrete release package |
 | O-10 | Working draft ready | CASE-STUDY.md distinguishes implementation evidence from unevaluated outcomes; screenshots/public release section pending |
@@ -287,3 +287,7 @@ Founder confirmed standalone capture + Gemini reading. Prepared docs/RELEASE-PAC
 ### Public website published - November 9, 2026
 
 Founder confirmed jpsc@tuta.io for Google support/contact and GitHub Pages if free. Public repository eligibility verified. Built four static Margin / Cut pages with bundled fonts, no browser JavaScript, and truthful development availability. Published website-only subtree at codex/public-pages through existing browser Pages settings. Deployment succeeded; product, privacy, terms, support, CSS and font probe returned HTTP 200. Desktop and narrow layout reviewed; no narrow overflow. `npm run check` passes all 19 tests, typecheck and app build; `npm run build:site` checks page headings/navigation/assets. No paid setup activated. Next: remaining app hardening and listing assets, then inspect Google Cloud/OAuth/Marketplace setup using the confirmed identity/contact and live URLs. Add-on public installation remains unverified.
+
+### Hardening slice - November 9, 2026
+
+Fixed delayed capture overriding navigation and stale completion re-rendering unsaved fields; cleared old context on Another passage; replaced paragraph-wrapper identity with structural paths; retained controlled selection-size guidance; added focus/wrapping improvements, strict request-ID type and project-level provider pause. All 28 tests, typecheck and standard/bound Gemini builds pass. Local browser sample checked at 300px: no overflow with unbroken text, 44px visible buttons, heading-to-control keyboard focus. Uploaded the standard Gemini build to standalone and prepared the same bound update. Updated capture implementation still needs real-host edge-case acceptance. See docs/HARDENING-RESULTS.md. Next after that check: listing graphics and Google Cloud/OAuth setup inspection.

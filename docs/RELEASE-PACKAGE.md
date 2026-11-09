@@ -36,7 +36,7 @@ Reviewer sequence: install → authorize → open through Extensions → capture
 | Selection edge cases | Test partial Unicode, multiple paragraphs, active tabs, empty selection and unsupported/table/image selections in real Docs |
 | Coaching quality | Evaluate synthetic examples across clarity/depth/voice/custom, misleading directions and rewrite requests; founder happy-path success is not corpus coverage |
 | Usability | Keyboard navigation, 300px sidebar, zoom, long content, status/error announcements and focus recovery remain to be checked in host |
-| Resilience | Extend nonce expiry/capacity/lock-failure tests and complete relevant real-host failure checks |
+| Resilience | Nonce expiry/capacity/lock-failure, unknown-outcome and operator-pause tests pass; complete relevant real-host failure checks |
 | Cross-document isolation | Verify a second document does not receive stale feedback as a reading of new text |
 | Public pages | GitHub Pages live; all four URLs verified. Publisher and email confirmed; final listing/policy consistency review remains |
 | Distribution | Install through public route from a second personal Google account, then complete the full loop and uninstall/reinstall |
@@ -45,7 +45,7 @@ Reviewer sequence: install → authorize → open through Extensions → capture
 
 Keep the current development branch separate from a frozen release candidate. Run `npm ci` and `npm run check`, then build the standard Gemini artifact. Record commit SHA, model `gemini-3.8-flash`, prompt text from `src/shared/revision.ts`, generated manifest, Apps Script version and deployed listing version together. No release version is recorded yet.
 
-To restore a previous release, check out its recorded commit, rebuild, upload to the standalone target and select the recorded/replacement version using the actual Marketplace configuration. Verify the current Google update path before changing the listing. A user can always stop requests by closing the sidebar; an operator-wide provider pause is not currently implemented and remains part of hardening.
+To restore a previous release, check out its recorded commit, rebuild, upload to the standalone target and select the recorded/replacement version using the actual Marketplace configuration. Verify the current Google update path before changing the listing. A user can always stop requests by closing the sidebar; an operator-wide provider pause is now implemented through the `PROVIDER_PAUSED` script property. See docs/HARDENING-RESULTS.md for activation and in-flight limitations.
 
 ## Official requirements checked November 9, 2026
 

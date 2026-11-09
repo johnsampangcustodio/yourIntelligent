@@ -11,6 +11,36 @@ it('walks the prepared sample without a provider or key',async()=>{
  click('Finish');click('Close sidebar');expect(document.body.textContent).toContain('NO KEY SET');
 });
 
+it('does not let a delayed capture replace key entry or erase unsaved input',async()=>{
+ vi.resetModules();document.body.innerHTML='<main id="app"></main>';
+ let pending:(r:any)=>void=()=>{};
+ const runner:any={withSuccessHandler:(fn:any)=>{pending=fn;return runner;},withFailureHandler:()=>runner,capturePassage:()=>{}};
+ vi.stubGlobal('google',{script:{run:runner}});
+ await import('./main');
+ const click=(name:string)=>[...document.querySelectorAll('button')].find(b=>b.textContent===name)!.click();
+ click('Use selected passage');click('Key & privacy');
+ const input=document.querySelector<HTMLInputElement>('#key')!;input.value='unsaved-fixture-key';input.focus();
+ pending({ok:true,text:'Late selection.'});
+ expect(document.querySelector('#key')).toBe(input);expect(input.value).toBe('unsaved-fixture-key');
+ expect(document.activeElement).toBe(input);expect(document.body.textContent).not.toContain('Late selection.');
+ vi.unstubAllGlobals();
+});
+
+it('clears previous passage context when starting another passage and focuses validation errors',async()=>{
+ vi.resetModules();document.body.innerHTML='<main id="app"></main>';vi.unstubAllGlobals();
+ await import('./main');
+ const click=(name:string)=>[...document.querySelectorAll('button')].find(b=>b.textContent===name)!.click();
+ click('Try sample');
+ const context=document.querySelector<HTMLTextAreaElement>('#context')!;context.value='Old course context';context.dispatchEvent(new Event('input'));
+ const custom=document.querySelector<HTMLTextAreaElement>('#custom')!;custom.value='Old direction';custom.dispatchEvent(new Event('input'));
+ click('Finish');click('Another passage');click('Try sample');
+ expect(document.querySelector<HTMLTextAreaElement>('#context')!.value).toBe('');
+ expect(document.querySelector<HTMLTextAreaElement>('#custom')!.value).toBe('');
+ click('Key & privacy');document.querySelector<HTMLInputElement>('#key')!.value='https://api.example.invalid';click('Use key for this session');
+ expect(document.activeElement?.getAttribute('role')).toBe('alert');
+ expect(document.querySelector<HTMLInputElement>('#key')!.type).toBe('password');
+});
+
 it('maps host authorization failure without exposing raw errors',async()=>{
  vi.resetModules();document.body.innerHTML='<main id="app"></main>';
  vi.stubGlobal('google',{script:{run:{withSuccessHandler:()=>({withFailureHandler:(fail:(e:{message:string})=>void)=>({capturePassage:()=>fail({message:'Authorization required; private diagnostic details'})})})}}});

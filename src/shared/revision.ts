@@ -4,7 +4,7 @@ export type Feedback = { observation:string; question:string; evidenceQuote:stri
 export type RevisionResult = {ok:true;id:string;feedback:Feedback}|{ok:false;id:string;code:string};
 export function validateRequest_(value:unknown):RevisionRequest {
  const r=value as RevisionRequest;
- if(!r || Object.keys(r).sort().join(',')!=='context,createdAt,customFocus,focus,id,passage' || !/^[a-zA-Z0-9-]{16,64}$/.test(r.id) || !Number.isFinite(r.createdAt))throw new Error('INVALID_REQUEST');
+ if(!r || Object.keys(r).sort().join(',')!=='context,createdAt,customFocus,focus,id,passage' || typeof r.id!=='string' || !/^[a-zA-Z0-9-]{16,64}$/.test(r.id) || !Number.isFinite(r.createdAt))throw new Error('INVALID_REQUEST');
  for(const [name,max] of [['passage',6000],['context',2000],['customFocus',500]] as const)if(typeof r[name]!=='string'||r[name].length>max)throw new Error('INVALID_REQUEST');
  if(!r.passage.trim()||!['clarity','depth','voice','custom'].includes(r.focus)||r.focus==='custom'&&!r.customFocus.trim())throw new Error('INVALID_REQUEST');
  return r;

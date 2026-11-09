@@ -47,3 +47,5 @@ Publisher: John Phillip Custodio. Student support: [LinkedIn](https://www.linked
 `npm run build:site` generates the public product/policy/support website from docs/public and assets/site.css into site/. Publication uses only this directory on a separate Pages branch; application code and research files are not website assets. OAuth/support contact email: jpsc@tuta.io.
 
 Public website: [yourIntelligent](https://johnsampangcustodio.github.io/yourIntelligent/). [Privacy](https://johnsampangcustodio.github.io/yourIntelligent/privacy.html), [terms](https://johnsampangcustodio.github.io/yourIntelligent/terms.html) and [support](https://johnsampangcustodio.github.io/yourIntelligent/support.html) are published for release preparation. The add-on itself is still available only through development testing.
+
+Hardening evidence and the project-level AI pause/recovery procedure: [HARDENING-RESULTS.md](docs/HARDENING-RESULTS.md). Current automated suite: 28 tests. Updated capture still needs the specified real-host edge-case check.

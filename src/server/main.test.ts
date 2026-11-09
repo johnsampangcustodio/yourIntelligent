@@ -28,4 +28,22 @@ describe('Docs adapter',()=>{
  const menu=vi.fn();vi.stubGlobal('DocumentApp',{getUi:()=>({createAddonMenu:()=>({addItem:()=>({addToUi:menu})})})});
  onOpen();expect(menu).toHaveBeenCalledOnce();
  });
+ it('keeps separate paragraph wrappers at the same structural path together',()=>{
+ const body={getType:()=> 'BODY_SECTION',getParent:()=>null,getChildIndex:()=>3};
+ const run=(text:string)=>({getElement:()=>({getType:()=> 'TEXT',getParent:()=>({getType:()=> 'PARAGRAPH',getParent:()=>body}),asText:()=>({getText:()=>text})}),isPartial:()=>false});
+ host({getRangeElements:()=>[run('Café '),run('😀')]});
+ expect(capturePassage()).toEqual({ok:true,text:'Café 😀'});
+ });
+ it('keeps different paragraphs separated even with fresh host wrappers',()=>{
+ const run=(index:number,text:string)=>({getElement:()=>({getType:()=> 'TEXT',getParent:()=>({getType:()=> 'PARAGRAPH',getParent:()=>({getType:()=> 'BODY_SECTION',getParent:()=>null,getChildIndex:()=>index})}),asText:()=>({getText:()=>text})}),isPartial:()=>false});
+ host({getRangeElements:()=>[run(1,'First.'),run(2,'Second.')]});
+ expect(capturePassage()).toEqual({ok:true,text:'First.\nSecond.'});
+ });
+ it('rejects text inside tables and keeps size guidance actionable',()=>{
+ const text=(value:string,parent:any)=>({getElement:()=>({getType:()=> 'TEXT',getParent:()=>parent,asText:()=>({getText:()=>value})}),isPartial:()=>false});
+ host({getRangeElements:()=>[text('table text',{getType:()=> 'TABLE_CELL'})]});
+ expect(capturePassage()).toMatchObject({ok:false,message:expect.stringContaining('outside tables')});
+ host({getRangeElements:()=>[text('a'.repeat(6001),{getType:()=> 'PARAGRAPH',getParent:()=>null})]});
+ expect(capturePassage()).toMatchObject({ok:false,message:expect.stringContaining('6,000')});
+ });
 });
