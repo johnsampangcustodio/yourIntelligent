@@ -31,3 +31,7 @@ Active document tabs, cross-document isolation, zoom/screen-reader checks, the b
 In the intended standalone Apps Script project's **Project Settings → Script properties**, set `PROVIDER_PAUSED` to the exact string `true` to reject new AI reading requests. Delete it or set it to `false` to resume. This setting is project-wide, not a student preference, and stores no user content. In-flight provider calls cannot be canceled by this flag and may consume quota.
 
 The pause is checked on the server before nonce creation and provider access. The UI shows a controlled paused message. No pause flag was enabled during this slice. There is no new OAuth scope. Keep development-bound and standalone properties separate; pausing one does not pause the other.
+
+### Founder host acceptance
+
+The founder confirmed that two selected paragraphs containing bold text and Café 😀 retained exact words, spacing, Unicode and the paragraph break in the updated standalone test. This validates the changed structural paragraph grouping for that tested case. Table/oversize selections, active tabs and other pending checks above are not inferred from this result.

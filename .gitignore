@@ -9,3 +9,8 @@ dependency-audit.json
 .clasp.*.json
 debug/bound-app/
 dist-bound/
+
+# Local console evidence can show account details; keep it out of public Git.
+docs/cloud-access-blocked.jpg
+docs/oauth-support-choice.jpg
+docs/oauth-policy-review.jpg

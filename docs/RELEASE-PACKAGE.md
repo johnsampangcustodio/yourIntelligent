@@ -13,7 +13,7 @@ Detailed description source: [public product/setup page](public/README.md). Link
 ## Configuration to inspect before publication
 
 1. Verify the standalone Apps Script project's associated Cloud project; switch to a suitable standard project if required. Preserve ownership under the founder account.
-2. Configure Google Auth platform branding as yourIntelligent, external audience, confirmed publisher and support/contact email **jpsc@tuta.io**, confirmed by the founder for these fields. LinkedIn remains the student-facing support destination.
+2. Configure Google Auth platform branding as yourIntelligent, external audience, confirmed publisher and OAuth user-support email **jpcustodio220@gmail.com**, approved by the founder after the console rejected the external Tuta address. Developer/project contact remains **jpsc@tuta.io**; LinkedIn remains the student-facing support destination.
 3. Match these exact manifest scopes in the OAuth and Marketplace configurations:
    - `https://www.googleapis.com/auth/documents.currentonly`
    - `https://www.googleapis.com/auth/script.container.ui`
@@ -24,7 +24,7 @@ Detailed description source: [public product/setup page](public/README.md). Link
 
 ## Assets and reviewer walkthrough
 
-Prepare actual app icons at 32×32 and 128×128, a 220×140 listing card, and at least one real Docs integration screenshot (recommended 1280×800). Preserve the light Margin / Cut design concept; do not imply Google endorsement. Use synthetic writing and no visible keys. Assets are not yet produced or approved.
+Prepare actual app icons at 32×32 and 128×128, a 220×140 listing card, and at least one real Docs integration screenshot (recommended 1280×800). Preserve the light Margin / Cut design concept; do not imply Google endorsement. Use synthetic writing and no visible keys. Icons (32/48/96/128px plus vector/master) and the 220×140 card are produced under docs/listing-assets. Their visual direction still needs founder review. The real Docs integration screenshot remains outstanding.
 
 Reviewer sequence: install → authorize → open through Extensions → capture synthetic plain text → inspect preview → choose focus → enter reviewer-owned Gemini key → explicit reading → write manually → local refresh → second explicit reading → skip/redirect/finish. Disclose the BYOK requirement before review. Do not embed a publisher-owned test credential in the app, repository or listing. Determine the review team's permitted credential/testing arrangement before submission if requested.
 
@@ -33,7 +33,7 @@ Reviewer sequence: install → authorize → open through Extensions → capture
 | Check | Current evidence / next action |
 |---|---|
 | Core integration | Founder confirmed both Gemini readings in bound preview, then capture + one Gemini reading in standalone Editor add-on test |
-| Selection edge cases | Test partial Unicode, multiple paragraphs, active tabs, empty selection and unsupported/table/image selections in real Docs |
+| Selection edge cases | Founder confirmed exact formatted text runs, Unicode and two-paragraph capture in hardened standalone build. Active tabs, empty/oversize and unsupported selections remain open |
 | Coaching quality | Evaluate synthetic examples across clarity/depth/voice/custom, misleading directions and rewrite requests; founder happy-path success is not corpus coverage |
 | Usability | Keyboard navigation, 300px sidebar, zoom, long content, status/error announcements and focus recovery remain to be checked in host |
 | Resilience | Nonce expiry/capacity/lock-failure, unknown-outcome and operator-pause tests pass; complete relevant real-host failure checks |
@@ -69,3 +69,24 @@ Update flow: edit source text/design, run `npm run build:site`, review generated
 - Support: https://johnsampangcustodio.github.io/yourIntelligent/support.html
 
 Pages source: `codex/public-pages` at `85aadc3f3fe5821640f090b77fa93db25b2c244e`, root folder. [Successful Pages run](https://github.com/johnsampangcustodio/yourIntelligent/actions/runs/42588194160). OAuth support/project email confirmed as `jpsc@tuta.io`; it has not yet been entered in Google Cloud. No paid plan or billable service was enabled. The GitHub connector needs reauthentication and gh CLI is unauthenticated; publication used the existing signed-in browser plus the working Git remote.
+
+## Publisher setup inspection - November 9, 2026
+
+The Apps Script standalone project still uses **GCP Default**. Google Cloud initially blocked console access pending owner 2-step verification; the founder enabled it and console access was rechecked successfully. Created a dedicated standard project named **yourIntelligent**, project ID **yourintelligent-publisher**, project number **49660377294**, under the owning account. No billing account or paid service was activated by the agent.
+
+The new project is **not yet linked** to Apps Script. Google Auth Platform branding is **not yet created**. Its initial support-email dropdown only offers the owning Gmail address or a managed Google Group (none exist). Founder initially selected jpsc@tuta.io, which the dropdown does not accept directly, then explicitly approved jpcustodio220@gmail.com for OAuth support. App name yourIntelligent, External/testing audience, Gmail support and Tuta project-contact fields are filled in the new project. The final User Data Policy agreement is unchecked; OAuth creation is pending that required decision. Retain Tuta for developer/privacy contact and LinkedIn for student app support.
+
+Before linking the new project, complete OAuth setup. Google documents that switching from a default project deletes the default project, cannot be reversed to that default, and requires previous users to reauthorize. Prepare the new configuration first, explain the concrete switch and obtain the required confirmation before that irreversible change. No switch, OAuth agreement acceptance, verification submission or Marketplace submission has occurred.
+
+References: [Apps Script Cloud project types and switch effects](https://developers.google.com/apps-script/guides/cloud-platform-projects); [OAuth support email](https://support.google.com/cloud/answer/10311615#user-support-email).
+
+### Prepared OAuth configuration
+
+- App name: yourIntelligent
+- User support email: jpcustodio220@gmail.com (explicit founder approval)
+- Audience: External; initial testing mode
+- Developer/project notification email: jpsc@tuta.io
+- Final required agreement: Google API Services User Data Policy; unchecked, not yet accepted
+- OAuth configuration creation: pending; no project link or public submission
+
+The icon/banner source and validated PNGs are in docs/listing-assets. Console screenshots remain local and ignored by Git. No application behavior changed in this asset/setup slice, so the prior 28 passing application tests were not rerun merely for documentation/graphics.

@@ -44,3 +44,7 @@ Official test flow: https://developers.google.com/workspace/add-ons/how-tos/test
 ### Standalone core path passed - November 9, 2026
 
 Founder confirmed capture and a Gemini reading through the standalone Editor add-on test after the corrected build was uploaded. Prior standalone failures above are historical; core capture/RPC is now confirmed in this test context. Partial/Unicode/multiple-paragraph/tab/unsupported selection cases, full standalone second-reading sequence and external public install remain to be checked individually.
+
+### Updated capture acceptance - November 9, 2026
+
+Founder confirmed exact words, spaces, Café 😀 and paragraph break when capturing two paragraphs with bold text in the hardened standalone build (56dc992). This is founder-reported host evidence for formatted text runs, Unicode and multiple paragraphs. Remaining table/empty/oversize/active-tab cases are still pending.

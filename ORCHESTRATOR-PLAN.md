@@ -232,7 +232,7 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 | Ticket | Initial status | Evidence / next action |
 |---|---|---|
 | O-01 | Done locally | TypeScript/esbuild/Vite scaffold, bundled sidebar, sample journey, 4 passing tests; see README |
-| O-02 | Ready | Account and key available; inspect actual setup and official requirements |
+| O-02 | Active / standard project created | Cloud access restored after founder enabled 2SV; yourintelligent-publisher (49660377294) created, not linked. OAuth fields prepared; required policy agreement pending |
 | O-03 | Core standalone capture confirmed / edge cases open | Founder confirmed standalone capture + Gemini reading; selection/tab edge cases remain open |
 | O-04 | Core loop confirmed in bound preview | Founder confirmed both Aion and Gemini revision loops. Standalone test and broader output evaluation remain open; see docs/LIVE-PROVIDER-CHECKLIST.md |
 | O-05 | Queued | Build on one working loop |
@@ -291,3 +291,7 @@ Founder confirmed jpsc@tuta.io for Google support/contact and GitHub Pages if fr
 ### Hardening slice - November 9, 2026
 
 Fixed delayed capture overriding navigation and stale completion re-rendering unsaved fields; cleared old context on Another passage; replaced paragraph-wrapper identity with structural paths; retained controlled selection-size guidance; added focus/wrapping improvements, strict request-ID type and project-level provider pause. All 28 tests, typecheck and standard/bound Gemini builds pass. Local browser sample checked at 300px: no overflow with unbroken text, 44px visible buttons, heading-to-control keyboard focus. Uploaded the standard Gemini build to standalone and prepared the same bound update. Updated capture implementation still needs real-host edge-case acceptance. See docs/HARDENING-RESULTS.md. Next after that check: listing graphics and Google Cloud/OAuth setup inspection.
+
+### Selection acceptance and publishing assets - November 9, 2026
+
+Founder confirmed exact formatted/Unicode/two-paragraph capture for hardened standalone build. Generated editable icon, required icon sizes and 220×140 card under docs/listing-assets; dimensions and appearance checked. Real integration screenshot remains outstanding. Read-only publisher inspection found default Apps Script Cloud linkage. Founder enabled required 2SV, then created dedicated standard Cloud project yourintelligent-publisher / 49660377294 under the owning account. No billing or paid service activated. Founder approved the offered Gmail address for OAuth support; Tuta remains project/developer contact. OAuth fields are now prepared with External/testing audience; final required User Data Policy agreement remains unchecked. Apps Script linkage remains unchanged. Prepare agreement and irreversible default-project switch as concrete reviewable steps before requesting required confirmation.
