@@ -2,6 +2,14 @@
 
 Status: preparation, not submitted or publicly deployed. Publisher: **John Phillip Custodio**. Student support destination: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). Public personal-account distribution and individual installation are the intended audience.
 
+## Current candidate — November 9, 2026
+
+Apps Script immutable version **2** packages the redesigned sidebar from application commit **3bdb37a**, description `0.1.0 design release candidate; app 3bdb37a; Gemini; not public`. The Marketplace App Configuration was saved with script version 2. Version 1 is retained as a historical candidate; it is not the current listing target. Current hashes/status are in [RELEASE-CANDIDATE.json](RELEASE-CANDIDATE.json); the previous metadata is archived under [releases/0.1.0-candidate-1.json](releases/0.1.0-candidate-1.json).
+
+The current launch-image set is real Docs UI at 1280×800: redesigned prepared feedback, first selection screen and refreshed local sample preview. All three were uploaded to the Marketplace draft in that order; Google returned **Draft saved** and disabled Save Draft. The copied synthetic document's bound script was updated to the same sidebar source. No key or live provider call is used. Existing icons/card already match the charcoal/near-white/blue design and remain unchanged. See [asset provenance](listing-assets/README.md).
+
+Founder requested launch packaging without another verification round. The existing 31-test/typecheck/build results remain the app evidence; no code changed or additional live test was requested during packaging. The founder also chose not to pursue provider-policy clarification. The inquiry remains unsent and no compliance conclusion is claimed. Google branding/OAuth and Marketplace review remain pending for the following slice. Sections below record earlier setup history; this current-candidate section and JSON supersede old version/test-count/next-step references.
+
 ## Listing copy
 
 Name: **yourIntelligent**

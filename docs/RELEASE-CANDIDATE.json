@@ -1,29 +1,27 @@
 {
   "status": "review candidate; not submitted or published",
   "prepared_on": "2026-11-09",
-  "application_commit": "56dc992",
-  "apps_script_version": 1,
-  "version_description": "0.1.0 review candidate; app 56dc992; Gemini; not a public release",
+  "application_commit": "3bdb37a",
+  "apps_script_version": 2,
+  "version_description": "0.1.0 design release candidate; app 3bdb37a; Gemini; not public",
   "standalone_script_id": "1lNA7NUbI5AGV25XnNzZFRBlI9FXMKypagZAT_V21whtdrsshBjt0Ea5l",
   "publisher_project_id": "yourintelligent-publisher",
   "publisher_project_number": "49660377294",
   "release_provider": "Gemini",
   "model": "gemini-3.8-flash",
   "prompt_source": "src/shared/revision.ts",
-  "automated_tests_last_passed": 28,
-  "host_evidence": "Founder confirmed capture and one Gemini reading after the standard Cloud project switch; full bound Gemini loop and hardened formatted/Unicode/two-paragraph capture previously confirmed.",
+  "automated_tests_last_passed": 31,
+  "host_evidence": "Redesigned standalone sidebar rendered in Google Docs; sample Select, Preview and prepared Feedback observed. Previous founder Gemini acceptance remains recorded; no new live provider request in design/packaging slices.",
   "local_artifact_sha256": {
     "Code.js": "72aa09b42a47ea197c1b4cf114a102a8a5a68a2da3422706b817556a72ea75cd",
-    "Sidebar.html": "a71564df912e9c4c1b19afdae48e4ed9a45a2c6dda220c05e4a78ea10f0b53d1",
+    "Sidebar.html": "b35ba8360fbbe6761b97d3ab81eff143e4ac931df3da57f6de04ad85a156285b",
     "appsscript.json": "fcdd545fbe20cb65bd5481afb76a575569a93844231ca6e763b5a4efb45a3556"
   },
   "hash_note": "Hashes describe local Gemini build artifacts from the tested source; remote-version byte-for-byte export comparison has not been performed.",
   "open_gates": [
-    "Free-tier provider-policy clarification; both submissions held by founder",
-    "Retry branding verification after Google ownership propagation delay",
+    "Google branding verification",
     "Sensitive-scope verification and Marketplace review",
-    "Remaining host/failure checks and coaching corpus",
-    "Independent-account public installation"
+    "Public listing availability and independent-account installation"
   ],
   "marketplace_configuration": {
     "saved": true,
@@ -31,7 +29,7 @@
     "visibility": "Public",
     "installation": "Individual + Admin Install",
     "integration": "Docs add-on",
-    "script_version": 1,
+    "script_version": 2,
     "oauth_manifest_scopes": [
       "documents.currentonly",
       "script.container.ui",
@@ -40,7 +38,8 @@
     "sdk_default_scopes": [
       "userinfo.email",
       "userinfo.profile"
-    ]
+    ],
+    "version_update_status": "Saved; console returned Saved with script version 2"
   },
   "store_listing": {
     "saved_as_draft": true,
@@ -49,7 +48,18 @@
     "pricing": "Free of charge app; provider charges disclosed",
     "distribution": "All Regions",
     "screenshot": "docs/listing-assets/docs-prepared-sample-1280x800.jpg",
-    "copy_source": "docs/LISTING-COPY.json"
+    "copy_source": "docs/LISTING-COPY.json",
+    "screenshots": [
+      "docs/listing-assets/docs-prepared-sample-1280x800.jpg",
+      "docs/listing-assets/docs-select-1280x800.jpg",
+      "docs/listing-assets/docs-revision-preview-1280x800.jpg"
+    ],
+    "screenshot_update_status": "All three screenshots uploaded; console returned Draft saved and disabled Save Draft",
+    "screenshot_order": [
+      "prepared feedback",
+      "select a passage",
+      "refreshed local sample preview"
+    ]
   },
   "oauth_publishing_status": "In production; unverified; Marketplace listing remains a draft",
   "homepage_ownership": {
@@ -58,7 +68,13 @@
     "status": "Search Console ownership verified",
     "verification_file": "google8133eefb59483b16.html",
     "pages_commit": "87f4bdfede3155d17ba7c2e68aa66aef3881cbd8",
-    "branding_retry_note": "Google branding error requested waiting 24 hours after ownership verification; no retry performed yet."
+    "branding_retry_note": "Ownership is verified. Branding retry remains for the next publishing slice; no retry performed during launch packaging."
   },
-  "submission_hold": "Founder explicitly chose to keep submissions pending while free-tier provider-policy use is clarified. No new account-tier requirement was implemented."
+  "submission_hold": "Publishing reviews remain pending; founder directed launch packaging before resuming branding/OAuth work. No review submission in this slice.",
+  "provider_policy_status": "Founder chose not to pursue compatibility clarification. Inquiry remains unsent; no compliance conclusion is asserted.",
+  "deferred_checks": "Existing quality/accessibility/host edge-case items remain documented. No extra test round or founder verification request in this packaging slice.",
+  "release_candidate_number": 2,
+  "previous_candidate_archive": "docs/releases/0.1.0-candidate-1.json",
+  "review_submission_performed": false,
+  "public_addon_available": false
 }

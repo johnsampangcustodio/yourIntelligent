@@ -57,7 +57,7 @@ A separate Aion Labs build exercised the synthetic test loop before Gemini verif
 
 ## What remains before launch
 
-Host edge cases and accessibility, broader synthetic coaching evaluation, provider data-use alignment, remaining OAuth/Marketplace reviews and independent-account installation. A store listing with assets and synthetic screenshot is saved as a draft, not submitted. The [product and policy/support website](https://johnsampangcustodio.github.io/yourIntelligent/) is live on GitHub Pages; this is separate from public add-on availability. Public-release status must stay explicit until a real listing exists and a second account can use it.
+The remaining publishing work is Google branding/OAuth verification, Marketplace review and public installation. The current version-2 configuration and three redesigned screenshots are saved as drafts, not submitted. Additional host/accessibility and coaching-evaluation items remain documented; the founder chose to continue packaging without another test round and not to pursue provider-policy clarification. The [product and policy/support website](https://johnsampangcustodio.github.io/yourIntelligent/) is live on GitHub Pages; this is separate from public add-on availability. No public add-on availability is claimed.
 
 The next research stage is voluntary student use with recent reflection drafts: do students understand and endorse their revision choices, can they reject unhelpful questions, and is the extra effort worthwhile? Faster completion, ownership, learning and enjoyment are separate outcomes to investigate. No student findings or psychological benefits are claimed yet.
 
@@ -72,3 +72,17 @@ This draft is editable source, not a finished visual portfolio. Add real synthet
 ![Prepared feedback in the actual Google Docs sidebar](docs/listing-assets/docs-prepared-sample-1280x800.jpg)
 
 Captured from the real bound development preview in a separate synthetic document. The feedback is visibly a prepared sample, not a claimed live model response. Founder-reported live Gemini acceptance is documented separately. This image does not establish public installation or student outcomes.
+
+The screenshot above now shows the implemented Margin / Cut redesign. The frozen review candidate is Apps Script version 2, based on app commit 3bdb37a; public review remains pending. The publisher draft targets that version. No new live-model or student-evaluation claim is made by packaging it.
+
+### Start with the student's writing
+
+![Redesigned selection state inside Google Docs](docs/listing-assets/docs-select-1280x800.jpg)
+
+The first action captures a preview. The document remains the writing surface; the sidebar does not generate an assignment draft or edit the document.
+
+### A new passage needs a new decision to send
+
+![Refreshed local sample preview, not sent](docs/listing-assets/docs-revision-preview-1280x800.jpg)
+
+This image follows the local sample practice path. The sidebar's practice passage was revised while the document body retains the initial synthetic example. Passage 2 is visibly Not sent; earlier feedback belongs to Passage 1. This illustrates the implemented version/context boundary without claiming a live model comparison or before/after learning result.
