@@ -42,3 +42,7 @@ This is a prepared draft, not an inquiry already sent. Google’s [official Mark
 Record the actual official response and distinguish it from our inference. Then decide whether to keep the existing BYOK arrangement, require an eligible non-training arrangement, constrain availability, or change architecture. The current candidate remains a developer-tested prototype and an unsubmitted listing draft.
 
 If public posting is authorized, post only the subject and inquiry body above. Exclude the Sending boundary/Status notes, private email addresses and project/document IDs. Public information included: app name, product website, three OAuth scope strings and the described request/data flow. No credentials or real student writing.
+
+### Outreach owner confirmed
+
+Founder explicitly chose to keep this inquiry as a draft and handle outreach personally. No forum post, email or support message was sent by the agent. Resume review preparation only after the founder brings back the clarification or gives a new instruction; preserve the submission hold in the meantime.

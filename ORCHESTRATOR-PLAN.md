@@ -315,3 +315,5 @@ Saved founder-declared Non-trader App Configuration. Saved the English store lis
 ### Ownership verified; founder submission hold
 
 Google branding returned an unregistered-homepage ownership issue and specified a 24-hour wait after ownership verification. Added the product URL-prefix property in Search Console, deployed the exact public HTML verification file, confirmed HTTP 200/expected body, and observed Ownership verified. Kept the token in the website build to survive future updates. No branding retry/approval is claimed yet. Founder declined adding a non-training-account requirement for now and explicitly chose to hold submissions while free-tier policy fit is clarified. Prepared the exact inquiry, identified the official Workspace Developers forum as a documented no-cost question route, and have not sent a message. No app-code or runtime behavior changes in this slice.
+
+Outreach handoff: founder chose to handle the provider-policy inquiry personally. It remains unsent in docs/PROVIDER-POLICY-QUESTION.md. Marketplace and sensitive-scope submissions remain held. No background polling, scheduled retry or outbound message has been set up.
