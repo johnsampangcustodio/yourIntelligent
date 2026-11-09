@@ -42,6 +42,8 @@ Refresh only captures locally. The next explicit send assesses only the refreshe
 
 ## Release preparation and case study
 
-Publisher: John Phillip Custodio. Student support: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). See the [release package](docs/RELEASE-PACKAGE.md), [public-page source](docs/public/README.md) and [working case-study draft](CASE-STUDY.md). These artifacts are prepared for review; no public listing or hosted policy-page verification is claimed.
+Publisher: John Phillip Custodio. Student support: [LinkedIn](https://www.linkedin.com/in/johnphillipcustodio/). See the [release package](docs/RELEASE-PACKAGE.md), [public-page source](docs/public/README.md) and [working case-study draft](CASE-STUDY.md). The product/policy/support website is live; no public add-on listing is claimed.
 
 `npm run build:site` generates the public product/policy/support website from docs/public and assets/site.css into site/. Publication uses only this directory on a separate Pages branch; application code and research files are not website assets. OAuth/support contact email: jpsc@tuta.io.
+
+Public website: [yourIntelligent](https://johnsampangcustodio.github.io/yourIntelligent/). [Privacy](https://johnsampangcustodio.github.io/yourIntelligent/privacy.html), [terms](https://johnsampangcustodio.github.io/yourIntelligent/terms.html) and [support](https://johnsampangcustodio.github.io/yourIntelligent/support.html) are published for release preparation. The add-on itself is still available only through development testing.

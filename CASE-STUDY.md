@@ -57,7 +57,7 @@ A separate Aion Labs build exercised the synthetic test loop before Gemini verif
 
 ## What remains before launch
 
-Host edge cases and accessibility, broader synthetic coaching evaluation, public policy/support pages, publisher/OAuth/Marketplace setup and independent-account installation. Public-release status must stay explicit until a real listing exists and a second account can use it.
+Host edge cases and accessibility, broader synthetic coaching evaluation, listing assets, publisher/OAuth/Marketplace setup and independent-account installation. The [product and policy/support website](https://johnsampangcustodio.github.io/yourIntelligent/) is live on GitHub Pages; this is separate from public add-on availability. Public-release status must stay explicit until a real listing exists and a second account can use it.
 
 The next research stage is voluntary student use with recent reflection drafts: do students understand and endorse their revision choices, can they reject unhelpful questions, and is the extra effort worthwhile? Faster completion, ownership, learning and enjoyment are separate outcomes to investigate. No student findings or psychological benefits are claimed yet.
 

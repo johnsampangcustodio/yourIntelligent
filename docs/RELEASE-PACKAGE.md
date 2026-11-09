@@ -8,7 +8,7 @@ Name: **yourIntelligent**
 
 Short description: **A revision partner for student reflections: choose a passage, get one observation and one question, and write the revision yourself. Bring your own Gemini API key.**
 
-Detailed description source: [public product/setup page](public/README.md). Links to prepare: [privacy](public/PRIVACY.md), [terms](public/TERMS.md), [support](public/SUPPORT.md). These are reviewable source files, not verified hosted policy URLs. Do not submit until actual public URLs work and policy wording matches the release build.
+Detailed description source: [public product/setup page](public/README.md). Links to prepare: [privacy](public/PRIVACY.md), [terms](public/TERMS.md), [support](public/SUPPORT.md). Source files generate the public Pages site; the deployed URLs below returned HTTP 200. Before submission, confirm policy wording still matches the release build.
 
 ## Configuration to inspect before publication
 
@@ -38,7 +38,7 @@ Reviewer sequence: install → authorize → open through Extensions → capture
 | Usability | Keyboard navigation, 300px sidebar, zoom, long content, status/error announcements and focus recovery remain to be checked in host |
 | Resilience | Extend nonce expiry/capacity/lock-failure tests and complete relevant real-host failure checks |
 | Cross-document isolation | Verify a second document does not receive stale feedback as a reading of new text |
-| Public pages | Select and verify hosting; confirm identity/contact and current provider terms wording |
+| Public pages | GitHub Pages live; all four URLs verified. Publisher and email confirmed; final listing/policy consistency review remains |
 | Distribution | Install through public route from a second personal Google account, then complete the full loop and uninstall/reinstall |
 
 ## Version, recovery and evidence
@@ -57,6 +57,15 @@ Recheck the actual console at submission. This document records preparation, not
 
 ## Website publication configuration
 
-Founder selected GitHub Pages at no cost. The repository is public and the Pages settings are available. `npm run build:site` builds a safelisted four-page static website into tracked `site/` with bundled fonts and no browser JavaScript. Source text remains in docs/public. A dedicated `codex/public-pages` subtree branch publishes only the website output at its root. Do not publish the repository root or raw research. Build and local navigation checks pass; live deployment verification is still pending at this point.
+Founder selected GitHub Pages at no cost. The repository is public and the Pages settings are available. `npm run build:site` builds a safelisted four-page static website into tracked `site/` with bundled fonts and no browser JavaScript. Source text remains in docs/public. A dedicated `codex/public-pages` subtree branch publishes only the website output at its root. Do not publish the repository root or raw research. Build and local navigation checks pass. GitHub Pages deployment completed successfully, and all four public pages, stylesheet and bundled-font sample returned HTTP 200. Desktop rendering and a 375px layout check were performed; the narrow layout had no horizontal overflow.
 
 Update flow: edit source text/design, run `npm run build:site`, review generated output, commit on the development branch, run `git subtree split --prefix site -b <temporary-codex-branch>` (or split to an SHA), and push that website-only commit to `codex/public-pages`. Never force-push unrelated application history or include credentials in the site.
+
+### Verified public URLs - November 9, 2026
+
+- Product/setup: https://johnsampangcustodio.github.io/yourIntelligent/
+- Privacy: https://johnsampangcustodio.github.io/yourIntelligent/privacy.html
+- Terms: https://johnsampangcustodio.github.io/yourIntelligent/terms.html
+- Support: https://johnsampangcustodio.github.io/yourIntelligent/support.html
+
+Pages source: `codex/public-pages` at `85aadc3f3fe5821640f090b77fa93db25b2c244e`, root folder. [Successful Pages run](https://github.com/johnsampangcustodio/yourIntelligent/actions/runs/42588194160). OAuth support/project email confirmed as `jpsc@tuta.io`; it has not yet been entered in Google Cloud. No paid plan or billable service was enabled. The GitHub connector needs reauthentication and gh CLI is unauthenticated; publication used the existing signed-in browser plus the working Git remote.
