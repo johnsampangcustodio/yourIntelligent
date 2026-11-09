@@ -19,10 +19,46 @@
   },
   "hash_note": "Hashes describe local Gemini build artifacts from the tested source; remote-version byte-for-byte export comparison has not been performed.",
   "open_gates": [
-    "Required trader declaration before Marketplace draft save",
-    "OAuth verification / public-review requirements",
-    "Real Docs integration screenshot",
+    "Free-tier provider-policy clarification; both submissions held by founder",
+    "Retry branding verification after Google ownership propagation delay",
+    "Sensitive-scope verification and Marketplace review",
     "Remaining host/failure checks and coaching corpus",
     "Independent-account public installation"
-  ]
+  ],
+  "marketplace_configuration": {
+    "saved": true,
+    "trader_status": "Non-trader (founder declaration)",
+    "visibility": "Public",
+    "installation": "Individual + Admin Install",
+    "integration": "Docs add-on",
+    "script_version": 1,
+    "oauth_manifest_scopes": [
+      "documents.currentonly",
+      "script.container.ui",
+      "script.external_request"
+    ],
+    "sdk_default_scopes": [
+      "userinfo.email",
+      "userinfo.profile"
+    ]
+  },
+  "store_listing": {
+    "saved_as_draft": true,
+    "language": "English",
+    "category": "Academic Resources",
+    "pricing": "Free of charge app; provider charges disclosed",
+    "distribution": "All Regions",
+    "screenshot": "docs/listing-assets/docs-prepared-sample-1280x800.jpg",
+    "copy_source": "docs/LISTING-COPY.json"
+  },
+  "oauth_publishing_status": "In production; unverified; Marketplace listing remains a draft",
+  "homepage_ownership": {
+    "property": "https://johnsampangcustodio.github.io/yourIntelligent/",
+    "method": "HTML file",
+    "status": "Search Console ownership verified",
+    "verification_file": "google8133eefb59483b16.html",
+    "pages_commit": "87f4bdfede3155d17ba7c2e68aa66aef3881cbd8",
+    "branding_retry_note": "Google branding error requested waiting 24 hours after ownership verification; no retry performed yet."
+  },
+  "submission_hold": "Founder explicitly chose to keep submissions pending while free-tier provider-policy use is clarified. No new account-tier requirement was implemented."
 }

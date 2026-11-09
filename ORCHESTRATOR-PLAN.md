@@ -239,7 +239,7 @@ If delivery slows, cut additional polish, unused component variants, extra marke
 | O-06 | Ready for implementation alongside slices | Current design plan/tokens/Figma available |
 | O-07 | Active / deterministic hardening passes | 28 tests; stale capture/input preservation, structural paragraph boundaries, ledger failures and operator pause checked. Updated real-host selection and coaching corpus remain open |
 | O-08 | Public pages live / listing assets and setup pending | John Phillip Custodio; LinkedIn support; jpsc@tuta.io confirmed; GitHub Pages product/privacy/terms/support URLs verified |
-| O-09 | Configuration staged / not submitted | SDK enabled; version 1 candidate; App Configuration save blocked on required founder trader declaration; verification/listing gates remain |
+| O-09 | Configuration and listing saved as drafts / not submitted | Non-trader declared by founder; Docs version 1; actual screenshot/copy/assets uploaded. OAuth production status set; homepage ownership verified; branding retry awaits propagation; submissions held pending free-tier policy clarification |
 | O-10 | Working draft ready | CASE-STUDY.md distinguishes implementation evidence from unevaluated outcomes; screenshots/public release section pending |
 
 Session handoff format: **completed and evidence; active task; blocker and owner; next exact action; any changed decision**. Keep this ledger accurate and concise as work progresses.
@@ -307,3 +307,11 @@ After disclosure of the exact irreversible switch, the founder delegated the dec
 ### Marketplace SDK and versioned candidate - November 9, 2026
 
 Founder approved SDK/API terms at no cost and reported post-switch capture + Gemini reading success. Enabled SDK; created Apps Script version 1 review candidate; filled Public/Individual + Admin/Docs-only configuration with the standalone script, version, exact three scopes and confirmed developer/contact URLs. Removed SDK default email/profile scopes. Save Draft failed on mandatory Trader/Non-trader status; asked founder rather than assigning a legal status. SDK configuration is staged, not saved; no review submission. Release-CANDIDATE metadata records local artifact hashes and the absence of remote byte comparison. Next: save config after founder declaration, prepare store listing and required verification evidence.
+
+### Draft listing completed and verification prerequisites - November 9, 2026
+
+Saved founder-declared Non-trader App Configuration. Saved the English store listing, four icons/card, genuine Docs screenshot of labeled prepared feedback, pricing/category/distribution and confirmed links. The SDK auto-restored its email/profile defaults; all three app scopes remain and runtime permissions were not broadened. A separate demo copy was used so original writing was not published. Moved OAuth into production status for public verification preparation; Marketplace remains draft/unsubmitted. Verification Center requires branding first; saved logo and started automated branding checks. Flagged actual Gemini unpaid-training/Workspace-policy fit and asked founder about a non-training-data-terms launch requirement. No new provider calls or app-code edits were made.
+
+### Ownership verified; founder submission hold
+
+Google branding returned an unregistered-homepage ownership issue and specified a 24-hour wait after ownership verification. Added the product URL-prefix property in Search Console, deployed the exact public HTML verification file, confirmed HTTP 200/expected body, and observed Ownership verified. Kept the token in the website build to survive future updates. No branding retry/approval is claimed yet. Founder declined adding a non-training-account requirement for now and explicitly chose to hold submissions while free-tier policy fit is clarified. Prepared the exact inquiry, identified the official Workspace Developers forum as a documented no-cost question route, and have not sent a message. No app-code or runtime behavior changes in this slice.

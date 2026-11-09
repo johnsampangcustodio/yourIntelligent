@@ -12,6 +12,6 @@ Original yourIntelligent mark: a lowercase y with a small blue margin dash. Char
 
 Built with `python scripts/build-listing-assets.py` using Pillow and fonttools. The banner uses the project's bundled DM Sans font; its license is under `site/assets/dm-sans-LICENSE.txt`. Generated PNG dimensions were checked and the 128px icon/banner visually reviewed.
 
-These graphics are not product screenshots. The required full-bleed Docs integration screenshot remains separate and must show the actual sidebar with synthetic content and no exposed keys. Do not submit a localhost screenshot or an invented UI as live Docs integration evidence.
+These graphics are not product screenshots. The full-bleed Docs screenshot is now docs-prepared-sample-1280x800.jpg. It shows the actual sidebar in a separately copied, private document whose visible body was replaced with synthetic text. The displayed feedback is explicitly labeled Prepared sample; it is not claimed to be a live model response. No key is visible. The image was captured directly at 1280×800 with no image editing, padding or overlays. The bound-preview menu is visible; this demonstrates the real host UI rather than public installation. Keep this distinction in the case study. Do not present localhost or invented UI as live integration evidence.
 
 Official requirements checked November 9, 2026: [Marketplace listing assets](https://developers.google.com/workspace/marketplace/create-listing).

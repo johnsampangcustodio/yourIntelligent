@@ -57,10 +57,16 @@ A separate Aion Labs build exercised the synthetic test loop before Gemini verif
 
 ## What remains before launch
 
-Host edge cases and accessibility, broader synthetic coaching evaluation, listing assets, publisher/OAuth/Marketplace setup and independent-account installation. The [product and policy/support website](https://johnsampangcustodio.github.io/yourIntelligent/) is live on GitHub Pages; this is separate from public add-on availability. Public-release status must stay explicit until a real listing exists and a second account can use it.
+Host edge cases and accessibility, broader synthetic coaching evaluation, provider data-use alignment, remaining OAuth/Marketplace reviews and independent-account installation. A store listing with assets and synthetic screenshot is saved as a draft, not submitted. The [product and policy/support website](https://johnsampangcustodio.github.io/yourIntelligent/) is live on GitHub Pages; this is separate from public add-on availability. Public-release status must stay explicit until a real listing exists and a second account can use it.
 
 The next research stage is voluntary student use with recent reflection drafts: do students understand and endorse their revision choices, can they reject unhelpful questions, and is the extra effort worthwhile? Faster completion, ownership, learning and enjoyment are separate outcomes to investigate. No student findings or psychological benefits are claimed yet.
 
 ## Portfolio completion notes
 
 This draft is editable source, not a finished visual portfolio. Add real synthetic-content screenshots of passage preview, grounded feedback and refreshed reading; a concise Figma-to-host comparison; the public installation link when verified; and founder-reviewed role/decision captions. Do not use staged model feedback as a claimed live result. See [release package](docs/RELEASE-PACKAGE.md) for remaining delivery gates.
+
+## Real host image
+
+![Prepared feedback in the actual Google Docs sidebar](docs/listing-assets/docs-prepared-sample-1280x800.jpg)
+
+Captured from the real bound development preview in a separate synthetic document. The feedback is visibly a prepared sample, not a claimed live model response. Founder-reported live Gemini acceptance is documented separately. This image does not establish public installation or student outcomes.
