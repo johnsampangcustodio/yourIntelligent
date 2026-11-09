@@ -267,3 +267,7 @@ The founder confirmed exact paragraph capture in a private-browser document-boun
 ### Provider slice - November 9, 2026
 
 Founder selected Aion Labs for synthetic testing only; Gemini remains the release provider. Second readings assess only the refreshed passage, with no earlier draft sent or comparison claim. Request implementation and deterministic tests are ready; actual live responses and standalone/public installation remain unverified. Session keys are never persisted; only nonce/timestamp duplicate-request metadata is stored. Next gate: founder performs one deliberate request using an actual key in the masked sidebar field.
+
+### First live Aion response - November 9, 2026
+
+Founder reported one observation and one question appearing after an explicit Aion request in the document-bound preview. This establishes a first live request/response, not output quality, a complete revision loop, Gemini acceptance or public deployment. O-04 remains active until manual edit, refresh and the second explicit reading are confirmed. Next: verify refreshed-only behavior in the host, then switch the development preview to Gemini for separate acceptance.

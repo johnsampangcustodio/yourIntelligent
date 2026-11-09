@@ -1,8 +1,8 @@
 # Live provider acceptance
 
-Implementation ready; no successful live provider call claimed. Aion is synthetic development testing only. Gemini remains the shipping provider and needs separate live acceptance.
+Founder confirmed on November 9, 2026 that the first live Aion request in the document-bound preview displayed one observation and one question. This is founder-reported host evidence; output quality and the second reading have not yet been inspected. Aion is synthetic development testing only. Gemini remains the shipping provider and needs separate live acceptance.
 
-Verification: 19 tests, strict typecheck and Gemini release build pass. The separate Aion bound build passes and was uploaded to the synthetic Doc's preview. No live model request was made during these checks. Founder acceptance is the next step.
+Verification: 19 tests, strict typecheck and Gemini release build pass. The separate Aion bound build passes and was uploaded to the synthetic Doc's preview. No live model request was made during these checks. The founder subsequently confirmed the first live response. The next acceptance step is manual revision, refresh and a second explicit reading.
 
 ## Manual bound test
 
@@ -21,7 +21,7 @@ Requests contain the current passage, chosen focus and optional context. They co
 
 ## Release checks still open
 
-- Real Aion synthetic output and second reading.
+- Aion second reading after manual revision and refresh; review actual output for grounded coaching and no comparison claims.
 - Real Gemini request/model/account availability using the normal build; current provider terms disclosure.
 - Standalone Editor add-on authorization/install, selection/tab edge cases and external personal-account installation. A bound preview is not public distribution.
 - Coaching quality across lenses, custom requests and prompt injection.

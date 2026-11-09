@@ -4,7 +4,7 @@ A student-directed revision partner for Google Docs. Students write all assignme
 
 ## Current build
 
-Local sample journey, Apps Script selection adapter, and live-request implementation. Gemini is the release provider; a separate Aion Labs build is for synthetic tests only. **Live provider success and public deployment are not verified yet.** Sample feedback is explicitly prepared, never a substitute for a failed live request.
+Local sample journey, Apps Script selection adapter, and live-request implementation. Gemini is the release provider; a separate Aion Labs build is for synthetic tests only. **The founder confirmed a first live Aion response in the bound preview. Gemini, the complete live revision loop and public deployment remain unverified.** Sample feedback is explicitly prepared, never a substitute for a failed live request.
 
 ## Develop
 
